@@ -2,9 +2,9 @@
 title: MODULO
 description: Pagina della guida del codice del rilevatore pattern
 translation-type: tm+mt
-source-git-commit: aa44c3ce87496f412191000f1980a7ebbde386cd
+source-git-commit: 9a02482d023ce1a6cbbff24b8e6509c91ddd2a6b
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,8 @@ I sottotipi seguenti consentono di identificare i diversi tipi di problemi:
 
 * `modified.feature`: Queste funzioni, risorse o API sono state aggiornate o modificate per Cloud Service. Prima di eseguire la migrazione al Cloud Service, esegui l’utility di migrazione per rendere queste funzioni e risorse compatibili con il Cloud Service.
 * `unavailable.feature`: L’ambiente dispone di funzioni e risorse non disponibili o rimosse dal Cloud Service. Non eseguire la migrazione di tali funzionalità o risorse in un ambiente di Cloud Service.
-* `unsupported.feature`: L’ambiente utilizza alcune funzioni non ancora supportate al Cloud Service. Non eseguire la migrazione di tali funzionalità o risorse in un ambiente di Cloud Service. Controlla le note sulle versioni mensili per verificare la disponibilità delle funzioni.
-* `unsupported.api`: Nel Cloud Service sono presenti alcune API non ancora supportate. Prima di eseguire la migrazione al Cloud Service, disattiva, sostituisci o rimuovi queste API dal codice. Controlla le note sulle versioni mensili per verificare la disponibilità delle funzioni.
+* `unsupported.feature`: L’ambiente utilizza alcune funzioni non ancora supportate al Cloud Service. Non eseguire la migrazione di tali funzionalità o risorse in un ambiente di Cloud Service. Per informazioni sulla disponibilità delle funzioni, consultare le note sulla versione mensili.
+* `unsupported.api`: Nel Cloud Service sono presenti alcune API non ancora supportate. Prima di eseguire la migrazione al Cloud Service, disattiva, sostituisci o rimuovi queste API dal codice. Per informazioni sulla disponibilità delle funzioni, consultare le note sulla versione mensili.
 
 Consulta le sezioni [Possibili implicazioni e rischi](#implications-and-risks) e [Soluzioni possibili](#solutions) per informazioni sulle sostituzioni e altre azioni necessarie per rendere alcune funzionalità e API compatibili con il Cloud Service
 
@@ -75,19 +75,19 @@ Risolvere i seguenti problemi, prima di eseguire la migrazione a [!DNL Adobe Exp
 
 * Rimuovi il passaggio di verifica dal Forms adattivo esistente prima di spostare tali moduli in un ambiente [!DNL Cloud Service]. (VERIFY_STEP)
 
-* Modifica i moduli adattivi esistenti per utilizzare [Invia all’endpoint REST](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-to-rest-endpoint), [Invia e-mail](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#send-email), [Invia tramite Form Data Model](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-using-form-data-model) e [Richiama un flusso di lavoro AEM](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) Invia azioni. L’azione di invio di Forms Portal e Forms Portal non è ancora disponibile. Controlla le note sulle versioni mensili per verificare la disponibilità delle funzioni. (FORMS_PORTAL_SUBMISSION, FORMS_PORTAL)
+* Modifica i moduli adattivi esistenti per utilizzare [Invia all’endpoint REST](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-to-rest-endpoint), [Invia e-mail](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#send-email), [Invia tramite Form Data Model](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-using-form-data-model) e [Richiama un flusso di lavoro AEM](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) Invia azioni. L’azione di invio di Forms Portal e Forms Portal non è ancora disponibile. Per informazioni sulla disponibilità delle funzioni, consultare le note sulla versione mensili. (FORMS_PORTAL_SUBMISSION, FORMS_PORTAL)
 
 * È possibile sviluppare un flusso di lavoro AEM e modificare i moduli adattivi esistenti per utilizzare [AEM Flusso di lavoro](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) Invia azione per inviare dati a un flusso di lavoro AEM invece di utilizzare l’ **[!UICONTROL Invia a Forms Workflow]** Invia azione. È possibile sviluppare un’azione di invio personalizzata per inviare dati, allegati o documenti di record (DoR) a un processo di LiveCycle invece di utilizzare l’ [!UICONTROL Invia a Forms Workflow]. (LC_WORKFLOW_SUBMISSION)
 
-* Controlla le note sulle versioni mensili per verificare la disponibilità della funzione di comunicazioni interattive. Non eseguire la migrazione delle comunicazioni interattive, delle lettere e dei dizionari correlati in un ambiente di Cloud Service fino a quando la funzione non sarà disponibile. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
+* Per informazioni sulla disponibilità della funzione di comunicazione interattiva, consultare le note sulle versioni mensili. Non eseguire la migrazione delle comunicazioni interattive, delle lettere e dei dizionari correlati in un ambiente di Cloud Service fino a quando la funzione non sarà disponibile. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
-* Disattiva l&#39;opzione **[!UICONTROL Salva come bozza]** e **[!UICONTROL Abilita salvataggio automatico]** nel Forms adattivo prima di migrarli al Cloud Service. È possibile abilitare queste opzioni una volta rilasciata la funzione Forms Portal per il Cloud Service. Controlla le note sulle versioni mensili per verificare la disponibilità delle funzioni. (DRAFT_AUTO_SAVE, DRAFT_SAVE)
+* Disattiva l&#39;opzione **[!UICONTROL Salva come bozza]** e **[!UICONTROL Abilita salvataggio automatico]** nel Forms adattivo prima di migrarli al Cloud Service. È possibile abilitare queste opzioni una volta rilasciata la funzione Forms Portal per il Cloud Service. Per informazioni sulla disponibilità delle funzioni, consultare le note sulla versione mensili. (DRAFT_AUTO_SAVE, DRAFT_SAVE)
 
 * Non viene effettuata alcuna sostituzione del pannello a soffietto metadati. Rimuovi dai moduli prima di migrarli al Cloud Service.(METADATA_ACCORDION_FORM_CONTAINER)
 
 * Utilizza Google reCaptcha invece del servizio CAPTCHA fornito da Adobe Experience Manager. (FORMS_CAPTCHA)
 
-* Adaptive Forms offre un design reattivo. Questi moduli modificano l’aspetto, la progettazione e l’interattività in base al dispositivo sottostante. Puoi continuare a utilizzare Adaptive Forms su dispositivi mobili tenendo d&#39;occhio le note sulla versione mensili per la disponibilità dell&#39;app [!DNL AEM Forms]. (AEM_FORMS_APP)
+* Adaptive Forms offre un design reattivo. Questi moduli modificano l’aspetto, la progettazione e l’interattività in base al dispositivo sottostante. Puoi continuare a utilizzare l&#39;Adaptive Forms sui dispositivi mobili. Per informazioni sulla disponibilità dell’app [!DNL AEM Forms], consulta le note sulla versione mensili. (AEM_FORMS_APP)
 
 * Non eseguire la migrazione di un modello di flusso di lavoro AEM che utilizza un passaggio Flusso di lavoro di Document Services. Inoltre, non eseguire la migrazione o l’aggiornamento di Forms adattivo che inviano dati utente a un modello di flusso di lavoro che utilizza i passaggi del flusso di lavoro di Document Services oppure modificare l’azione di invio in un [supportato](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html) prima di eseguire la migrazione del modulo. (WORKFLOW_DOCSERVICES)
 
