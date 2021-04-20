@@ -4,8 +4,8 @@ user-guide-title: Guida al rilevamento pattern di Experience Manager
 breadcrumb-title: Rilevamento pattern AEM
 user-guide-description: Scopri le funzioni di Rilevamento pattern di Adobe Experience Manager.
 feature-set: Experience Manager
-feature: Strumenti per gli sviluppatori
-role: Developer (Sviluppatore)
+feature: Developer Tools
+role: Developer
 translation-type: tm+mt
 source-git-commit: a6ba6e93c89644160650882ecbf17028bec35068
 workflow-type: tm+mt
