@@ -1,18 +1,24 @@
 ---
 title: URS
 description: Pagina della guida del codice del rilevatore pattern
+exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
 translation-type: tm+mt
-source-git-commit: 5a83dd8d08da974a5d775032b8dbea2593be9d15
+source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
 
-
 # URS {#urs}
 
 Struttura dell’archivio non supportata
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_urs_overview"
+>title="Struttura dell’archivio non supportata"
+>abstract="L’URL identifica casi di struttura dell’archivio non supportata. Questo consente di rimuovere informazioni per evitare conflitti tra AEM codice prodotto e codice cliente, il contenuto viene ristrutturato da /etc ad altre cartelle nell’archivio e altro ancora."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html" text="Ristrutturazione dell’archivio"
 
 ## Sfondo {#background}
 
@@ -34,6 +40,13 @@ I sottotipi vengono utilizzati per identificare i tipi specifici di problemi del
 * I pacchetti contenenti contenuto sia mutabile che immutabile causeranno probabilmente problemi durante la distribuzione.
 
 ## Soluzioni possibili {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_urs_guidance"
+>title="Guida all&#39;implementazione"
+>abstract="È consigliabile rivedere il progetto di codice e assicurarsi che sia conforme alle linee guida sulla struttura del progetto AEM ed evitare che il codice si basi su percorsi di archivio precedenti/non supportati che possano causare comportamenti indesiderati in AEM come Cloud Service. Contatta il supporto Adobe per assistenza e chiarimenti"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html" text="Linee guida per la struttura del progetto AEM"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
 
 * Fai riferimento a [Ristrutturazione dell&#39;archivio](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html) per informazioni su come prepararsi per AEM come Cloud Service.
 * Per ulteriori informazioni sulle aree mutabili e immutabili dell’archivio, consulta anche [AEM Struttura del progetto](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) .
