@@ -1,20 +1,25 @@
 ---
 title: IOI
 description: Pagina della guida del codice del rilevatore pattern
+exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
 translation-type: tm+mt
-source-git-commit: 4f94d4a1e0b8eb7bedbedba2c8a683f34655b527
+source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
-
 
 # IOI {#ioi}
 
 Importazione Oak interna
 
 ## Sfondo {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_ioi_overview"
+>title="Importazione Oak interna"
+>abstract="Il codice IOI identifica l&#39;utilizzo da parte del cliente dei pacchetti Oak interni, importandoli tramite OSGi. Di solito sono esportati senza alcuna versione particolare e sono destinati al consumo solo da altri bundle Oak o servizi di AEM di basso livello."
 
 `IOI` identifica l&#39;utilizzo da parte del cliente dei pacchetti Oak interni, importandoli tramite OSGi. Di solito sono esportati senza alcuna versione particolare e sono destinati al consumo solo da altri bundle Oak o servizi di AEM di basso livello.
 
@@ -26,6 +31,12 @@ Alcuni di questi sono utilizzati da `com.adobe.granite.repository`, che imposta 
 * L’API nelle esportazioni interne potrebbe cambiare.
 
 ## Soluzioni possibili {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_ioi_guidance"
+>title="Guida all&#39;implementazione"
+>abstract="I clienti devono rivedere il proprio codice personalizzato per identificare l&#39;utilizzo di tali API e refattele compatibili con AEM come Cloud Service. Contatta il supporto Adobe per assistenza e chiarimenti"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
 
 * Utilizza l’API della risorsa Sling (o l’API JCR) invece di un accesso di basso livello.
 * Evita di dipendere da pacchetti interni che non fanno parte di alcuna API o SPI pubblica.
