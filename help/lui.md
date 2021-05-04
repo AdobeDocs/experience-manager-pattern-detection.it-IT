@@ -1,20 +1,26 @@
 ---
 title: LUI
 description: Pagina della guida del codice del rilevatore pattern
+exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
 translation-type: tm+mt
-source-git-commit: a2c7137dd5cb2479bc0c6134d3afa58111049a68
+source-git-commit: 76dc944f1592118920f89c513faf456b8aa443a9
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 4%
+source-wordcount: '554'
+ht-degree: 5%
 
 ---
-
 
 # LUI {#lui}
 
 Interfaccia utente legacy
 
 ## Sfondo {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_lui_overview"
+>title="Interfaccia utente legacy"
+>abstract="LUI identifica come Cloud Service l’utilizzo di elementi dell’interfaccia utente obsoleti non consigliati o non supportati nelle versioni successive di AEM e in AEM."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="Modifiche di rilievo - AEM come Cloud Service"
 
 `LUI` identifica come Cloud Service l’utilizzo di elementi obsoleti dell’interfaccia utente che non sono consigliati o non sono supportati nelle versioni successive di AEM e in AEM.
 
@@ -37,10 +43,23 @@ e il valore della proprietà `sling:resourceType` non contiene
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_lui_guidance"
+>title="Guida all&#39;implementazione"
+>abstract="L’interfaccia classica non è più disponibile in AEM come Cloud Service e l’interfaccia standard per l’authoring è l’interfaccia touch. Si consiglia di spostare tutte le interfacce non supportate e di reimpostare le personalizzazioni collegate alle funzioni/funzionalità più recenti compatibili con AEM come Cloud Service. I clienti possono sfruttare la suite di modernizzazione AEM esistente per ridurre lo sforzo necessario per modernizzare le implementazioni di AEM Sites."
+>additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="Strumenti di modernizzazione AEM"
+
 * L’interfaccia classica non è più disponibile in AEM come Cloud Service. L’interfaccia standard per l’authoring è l’interfaccia touch.
 * L’utilizzo di componenti personalizzati legacy può aumentare i costi di manutenzione nel tempo.
 
 ## Soluzioni possibili {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_lui_tools"
+>title="Strumenti e risorse"
+>abstract="Con l’aiuto di AEM Suite di modernizzazione, i clienti possono convertire le finestre di dialogo Classic (ExtJS) in finestre di dialogo Coral. L’obiettivo è aiutare i clienti a passare dalle funzionalità non supportate o legacy alle offerte AEM robuste e moderne. Questi strumenti sono configurabili, compatibili con la configurazione ed estensibili. Inoltre, esplora la sostituzione dei componenti personalizzati con il set di componenti core standardizzati per accelerare i tempi di sviluppo e ridurre i costi di manutenzione delle applicazioni."
+>additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/component.html" text="Convertitore componente"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="Componenti core"
 
 * Utilizza [AEM suite di strumenti di modernizzazione](https://opensource.adobe.com/aem-modernize-tools/) per ridurre lo sforzo necessario per modernizzare le tue implementazioni AEM Sites. Questi strumenti includono la conversione di:
    * Finestre di dialogo classiche (ExtJS) nelle finestre di dialogo Coral
