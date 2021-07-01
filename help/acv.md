@@ -2,10 +2,10 @@
 title: ACV
 description: Pagina della guida del codice del rilevatore pattern
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a5
-source-git-commit: 57e33b97aba253bad62cf95dcca9ef6885d263e6
+source-git-commit: d61fbb28fdf91fd9b356654d5cd2d50b156398c4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '219'
+ht-degree: 3%
 
 ---
 
@@ -15,12 +15,12 @@ Convalida del contenuto delle risorse
 
 ## Sfondo {#background}
 
->[!INFO]
->id=&quot;aemcloud_bpa_acv_overview&quot;
->title=&quot;Convalida del contenuto delle risorse&quot;
->abstract=&quot;ACV identifica i nodi obbligatori mancanti nel contenuto delle risorse.&quot;
->add-url=&quot;https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html&quot; text=&quot;Modifiche di rilievo - Experience Manager come Cloud Service&quot;
->additional-url=&quot;https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html&quot; text=&quot;Experience Manager as a Cloud Service - Note sulla versione&quot;
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_acv_overview"
+>title="Convalida del contenuto delle risorse"
+>abstract="ACV identifica i nodi obbligatori mancanti nel contenuto delle risorse."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html" text="Modifiche di rilievo - Experience Manager come Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=it" text="Experience Manager come Cloud Service - Note sulla versione"
 
 `ACV`  La funzione di convalida del contenuto delle risorse identifica i nodi obbligatori mancanti nel contenuto delle risorse. Questo potrebbe causare l’errore di alcune funzionalità di Assets all’Experience Manager come Cloud Service.
 
@@ -34,11 +34,11 @@ Questo potrebbe causare l’errore di alcune funzionalità di Assets che dipendo
 
 ## Soluzioni possibili {#solutions}
 
->[!INFO]
->id=&quot;aemcloud_bpa_acv_Guidance&quot;
->title=&quot;Guida all&#39;implementazione&quot;
->abstract=&quot;Adobe consiglia di rivedere la struttura del contenuto per evitare flussi di lavoro interrotti che dipendono dalle proprietà ereditate. Contatta l’Assistenza clienti per ricevere assistenza&quot;.
->add-url=&quot;https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html&quot; text=&quot;Supporto Experience Cloud&quot;
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_acv_guidance"
+>title="Guida all&#39;implementazione"
+>abstract="Adobe consiglia di rivedere la struttura del contenuto per evitare flussi di lavoro interrotti che dipendono da proprietà ereditate. Contatta l’Assistenza clienti per ricevere assistenza&quot;.
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
 
 * Analizza una cartella se presenta un nodo figlio mancante. Crea manualmente i nodi se il numero di cartelle è gestibile, altrimenti utilizza uno script.
 * Rivolgiti al nostro [Experience Manager Customer Care Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per affrontare i problemi.
