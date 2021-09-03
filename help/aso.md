@@ -2,11 +2,10 @@
 title: ASO
 description: Pagina della guida del codice del rilevatore pattern
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-translation-type: tm+mt
-source-git-commit: 449288e567adda9998a89e0ad5198fd5a4e93f35
+source-git-commit: dc9d6c94d5a724cf24890378ba6a8af7396760c6
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 5%
+source-wordcount: '309'
+ht-degree: 4%
 
 ---
 
@@ -28,8 +27,8 @@ I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 
 * `aem.version`: Versione AEM.
 * `aem.product`: Rilevamento dell’uso di un prodotto AEM (Commerce, Forms, ecc.).
-* `node.count`: Numero approssimativo di nodi di un determinato tipo (Pagina, Risorsa, ecc.).
-* `node.store`: Il tipo di implementazione dell&#39;archivio nodi (SegmentNodeStore, DocumentNodeStore).
+* `node.count`: Conteggio approssimativo dei nodi di un determinato tipo (Pagina, Risorsa, ecc.) e il totale complessivo dei nodi.
+* `node.store`: Il tipo di implementazione dell&#39;archivio nodi (SegmentNodeStore, DocumentNodeStore) e le relative dimensioni.
 * `data.store`: Tipo di implementazione dell’archivio dati (FileDataStore, S3DataStore, AzureDataStore).
 * `maintenance.task`: Attività di manutenzione.
 * `slow.query`: Query lenta.
