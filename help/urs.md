@@ -2,10 +2,9 @@
 title: URS
 description: Pagina della guida del codice del rilevatore pattern
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-translation-type: tm+mt
-source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
+source-git-commit: 8539f5957d7f98af17819d3dd087272f029791aa
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -33,6 +32,7 @@ I sottotipi vengono utilizzati per identificare i tipi specifici di problemi del
 * `node.location`: Un nodo sotto  `/etc` che è stato modificato dopo l&#39;installazione.
 * `workflow.location`: Un modello di flusso di lavoro o un modulo di avvio in  `/etc/workflow`.
 * `package.structure`: Un pacchetto che contiene sia contenuti mutabili che immutabili.
+* `node.name.length`: Nome di nodo con lunghezza non supportata.
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
@@ -51,4 +51,4 @@ I sottotipi vengono utilizzati per identificare i tipi specifici di problemi del
 * Fai riferimento a [Ristrutturazione dell&#39;archivio](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html) per informazioni su come prepararsi per AEM come Cloud Service.
 * Per ulteriori informazioni sulle aree mutabili e immutabili dell’archivio, consulta anche [AEM Struttura del progetto](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) .
 * Contatta il nostro [AEM team di supporto](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per risolvere eventuali problemi.
-* Utilizza il [Repository Modernizer](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/repo-modernizer.html#refactoring-tools) per ristrutturare i pacchetti di progetto esistenti separando il contenuto e il codice in pacchetti discreti in modo da essere compatibile con la struttura di progetto definita per Adobe Experience Manager come Cloud Service.
+* Sfrutta il [Repository Modernizer](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/repo-modernizer.html#refactoring-tools) per ristrutturare i pacchetti di progetto esistenti separando il contenuto e il codice in pacchetti discreti in modo che siano compatibili con la struttura di progetto definita per Adobe Experience Manager come Cloud Service.
