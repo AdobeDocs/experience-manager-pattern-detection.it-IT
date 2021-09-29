@@ -2,10 +2,10 @@
 title: URS
 description: Pagina della guida del codice del rilevatore pattern
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 8539f5957d7f98af17819d3dd087272f029791aa
+source-git-commit: 9d92254d2f5e84f833ed6926a0ae69b334730d21
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 0%
+source-wordcount: '431'
+ht-degree: 3%
 
 ---
 
@@ -16,14 +16,16 @@ Struttura dell’archivio non supportata
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_overview"
 >title="Struttura dell’archivio non supportata"
->abstract="L’URL identifica casi di struttura dell’archivio non supportata. Questo consente di rimuovere informazioni per evitare conflitti tra AEM codice prodotto e codice cliente, il contenuto viene ristrutturato da /etc ad altre cartelle nell’archivio e altro ancora."
+>abstract="URS identifica casi di struttura dell’archivio non supportata e caratteristiche dei nodi. Questo consente di rimuovere informazioni per evitare conflitti tra AEM codice prodotto e codice cliente, il contenuto viene ristrutturato da /etc ad altre cartelle nell’archivio e altro ancora."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html" text="Ristrutturazione dell’archivio"
 
 ## Sfondo {#background}
 
-`URS` identifica i casi di struttura dell&#39;archivio non supportata. A partire dal AEM 6.4 sono state fornite linee guida per la ristrutturazione del contenuto dell’archivio. delineando chiaramente le gerarchie per AEM codice prodotto e codice cliente ed evitare conflitti tra loro, il contenuto viene ristrutturato da `/etc` ad altre cartelle nell’archivio, in conformità alle seguenti regole di alto livello:
+`URS` identifica casi di struttura dell&#39;archivio non supportata e caratteristiche del nodo. A partire dal AEM 6.4 sono state fornite linee guida per la ristrutturazione del contenuto dell’archivio. delineando chiaramente le gerarchie per AEM codice prodotto e codice cliente ed evitare conflitti tra loro, il contenuto viene ristrutturato da `/etc` ad altre cartelle nell’archivio, in conformità alle seguenti regole di alto livello:
 
-* AEM codice prodotto verrà sempre inserito in `/libs`, che non deve essere sovrascritto dal codice personalizzato Il codice personalizzato deve essere inserito in `/apps`, `/content` e `/conf`.
+* AEM codice prodotto verrà sempre inserito in `/libs`, che non deve essere sovrascritto dal codice personalizzato.
+* Il codice personalizzato deve essere posizionato in `/apps`, `/content` e `/conf`.
+* AEM come Cloud Service non supporta i nomi dei nodi lunghi (>150 byte).
 * Si raccomanda vivamente che tali linee guida siano seguite per AEM come Cloud Service.
 
 I sottotipi vengono utilizzati per identificare i tipi specifici di problemi dell’archivio che devono essere risolti:
@@ -49,6 +51,6 @@ I sottotipi vengono utilizzati per identificare i tipi specifici di problemi del
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
 
 * Fai riferimento a [Ristrutturazione dell&#39;archivio](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html) per informazioni su come prepararsi per AEM come Cloud Service.
-* Per ulteriori informazioni sulle aree mutabili e immutabili dell’archivio, consulta anche [AEM Struttura del progetto](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) .
+* Per ulteriori informazioni sulle aree mutabili e immutabili dell’archivio, consulta anche [AEM Struttura del progetto](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=it) .
 * Contatta il nostro [AEM team di supporto](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per risolvere eventuali problemi.
 * Sfrutta il [Repository Modernizer](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/repo-modernizer.html#refactoring-tools) per ristrutturare i pacchetti di progetto esistenti separando il contenuto e il codice in pacchetti discreti in modo che siano compatibili con la struttura di progetto definita per Adobe Experience Manager come Cloud Service.
