@@ -39,7 +39,7 @@ I sottotipi vengono utilizzati per identificare i diversi tipi di informazioni, 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_acv_guidance"
 >title="Guida all&#39;implementazione"
->abstract="Adobe consiglia di rivedere la struttura del contenuto per evitare flussi di lavoro interrotti che dipendono da proprietà ereditate. Contatta l’Assistenza clienti per ricevere assistenza&quot;.
+>abstract="Adobe consiglia di rivedere la struttura del contenuto per evitare flussi di lavoro interrotti che dipendono da proprietà ereditate. Contatta l’Assistenza clienti per ricevere assistenza."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
 
 * Analizza una cartella se presenta un nodo figlio mancante. Crea manualmente i nodi se il numero di cartelle è gestibile, altrimenti utilizza uno script.
