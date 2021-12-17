@@ -1,27 +1,26 @@
 ---
-title: OCU
+title: OU
 description: Pagina della guida del codice del rilevatore pattern
-exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
 source-git-commit: fdc3e8bdef27de971743a9ecb04d3912cf8e60ad
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
 
-# OCU {#ocu}
+# OU {#ou}
 
-OBSOLETO: Utilizzo del codice obsoleto (sostituito da UO, Utilizzo obsoleto)
+Utilizzo obsoleto
 
 ## Sfondo {#background}
 
 >[!CONTEXTUALHELP]
->id="aemcloud_bpa_ocu_overview"
->title="Utilizzo del codice obsoleto"
->abstract="OCU identifica la situazione in cui alcuni nodi JCR, come i componenti Sling o AEM o le esportazioni API OSGi, vengono modificati o rimossi in modo non compatibile. Il cliente potrebbe non essere a conoscenza di questa modifica prima di un aggiornamento. Possono essere aggiornati a una versione non compatibile o non sono disponibili."
+>id="aemcloud_bpa_ou_overview"
+>title="Utilizzo obsoleto"
+>abstract="OU identifica la situazione in cui alcuni nodi JCR, come i componenti Sling o AEM o le esportazioni API OSGi, vengono modificati o rimossi in modo non compatibile. Il cliente potrebbe non essere a conoscenza di questa modifica prima di un aggiornamento. Possono essere aggiornati a una versione non compatibile o non sono disponibili."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="Modifiche di rilievo - AEM as a Cloud Service"
 
-`OCU` identifica la situazione in cui alcuni nodi JCR, come i componenti Sling o AEM o le esportazioni API OSGi, vengono modificati o rimossi in modo non compatibile. Il cliente potrebbe non essere a conoscenza di questa modifica prima di un aggiornamento. Possono essere aggiornati a una versione non compatibile o non sono disponibili.
+`OU` identifica la situazione in cui alcuni nodi JCR, come i componenti Sling o AEM o le esportazioni API OSGi, vengono modificati o rimossi in modo non compatibile. Il cliente potrebbe non essere a conoscenza di questa modifica prima di un aggiornamento. Possono essere aggiornati a una versione non compatibile o non sono disponibili.
 
 Poiché le versioni precedenti non sono installate per impostazione predefinita, l&#39;applicazione del cliente potrebbe non funzionare correttamente.
 
@@ -33,7 +32,7 @@ Poiché le versioni precedenti non sono installate per impostazione predefinita,
 ## Soluzioni possibili {#solutions}
 
 >[!CONTEXTUALHELP]
->id="aemcloud_bpa_ocu_guidance"
+>id="aemcloud_bpa_ou_guidance"
 >title="Guida all&#39;implementazione"
 >abstract="È consigliabile rivedere e adattare il codice cliente in modo da utilizzare la versione più recente dei componenti o delle API di AEM. Per assistenza e chiarimenti, contatta il supporto Adobe."
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="API SDK di Adobe Experience Manager"
