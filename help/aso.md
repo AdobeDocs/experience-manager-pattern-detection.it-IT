@@ -2,9 +2,9 @@
 title: ASO
 description: Pagina della guida del codice del rilevatore pattern
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 3e05ecb2c78b0ebf97d334cf592347b54255c75f
+source-git-commit: d45c6b561a9665cbac39bfd8d9ce6eb2658c24e8
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '359'
 ht-degree: 4%
 
 ---
@@ -33,10 +33,14 @@ I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 * `maintenance.task`: Attività di manutenzione.
 * `slow.query`: Query lenta.
 * `group.membership`: Il numero di utenti e sottogruppi ( solo membri diretti/dichiarati ) in un gruppo.
+* `cqtag.count`: Il numero di risorse con tag CQ.
+* `smarttag.count`: Il numero di risorse con tag avanzati.
+* `ccom.version`: Versione del pacchetto del componente core.
+* `instance.type`: Il tipo di istanza AEM (author|publish).
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
-* I tipi di implementazione della versione AEM, dei nodi, dell’appartenenza al gruppo e dell’archivio nodi e dell’archivio dati sono forniti a scopo informativo.
+* La versione AEM, i conteggi dei nodi, l’appartenenza al gruppo, l’archivio dei nodi, i tipi di implementazione dell’archivio dati, il conteggio dei tag CQ, il conteggio dei tag avanzati, la versione del componente core e AEM tipo di istanza sono forniti a scopo informativo.
 * L’applicazione personalizzata può basarsi su prodotti o funzionalità non disponibili in AEM as a Cloud Service.
 * L’aggiornamento con funzioni non supportate potrebbe causare un errore di aggiornamento e un’applicazione non funzionante.
 
