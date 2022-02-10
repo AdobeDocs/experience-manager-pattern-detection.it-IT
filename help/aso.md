@@ -2,9 +2,9 @@
 title: ASO
 description: Pagina della guida del codice del rilevatore pattern
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: d45c6b561a9665cbac39bfd8d9ce6eb2658c24e8
+source-git-commit: ff4f798d540d52d7875e514a2edb959e64e068fb
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '364'
 ht-degree: 4%
 
 ---
@@ -37,6 +37,7 @@ I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 * `smarttag.count`: Il numero di risorse con tag avanzati.
 * `ccom.version`: Versione del pacchetto del componente core.
 * `instance.type`: Il tipo di istanza AEM (author|publish).
+* `unprocessed.asset.count`: Numero di attività non elaborate.
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
