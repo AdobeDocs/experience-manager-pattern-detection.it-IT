@@ -1,11 +1,11 @@
 ---
 title: ACV
-description: Pagina della guida del codice del rilevatore pattern
+description: Pagina della guida del codice di Pattern Detector
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: 301aef7e53e94eb5941691450b3f1192408f2c6b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '274'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
@@ -19,29 +19,29 @@ Convalida del contenuto delle risorse
 >id="aemcloud_bpa_acv_overview"
 >title="Convalida del contenuto delle risorse"
 >abstract="ACV identifica i nodi obbligatori mancanti nel contenuto delle risorse."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html" text="Modifiche di rilievo - Experience Manager as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=it" text="Experience Manager as a Cloud Service - Note sulla versione"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html?lang=it" text="Modifiche di rilievo apportate a Experience Manager as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=it" text="Experience Manager as a Cloud Service: note sulla versione"
 
-`ACV`  La funzione di convalida del contenuto delle risorse identifica i nodi obbligatori mancanti nel contenuto delle risorse. Questo potrebbe causare l’errore di alcune funzionalità di Assets in Experience Manager as a Cloud Service.
+`ACV` La convalida del contenuto delle risorse identifica i nodi obbligatori mancanti nel contenuto delle risorse. Questo potrebbe causare l’errore di alcune funzionalità di Assets in Experience Manager as a Cloud Service.
 
 I sottotipi vengono utilizzati per identificare i diversi tipi di informazioni, ad esempio:
 
-* `missing.jcrcontent`: Identifica le cartelle con nodi obbligatori mancanti nel repository. L’identificazione di eventuali contenuti mancanti nell’archivio aiuta a prevenire eventuali funzioni o casi d’uso non funzionanti.
-* `missing.original.rendition`: Identifica le risorse con un rendering originale obbligatorio mancante nell’archivio.
+* `missing.jcrcontent`: identifica le cartelle con nodi obbligatori mancanti nell’archivio. L’identificazione di eventuali contenuti mancanti nell’archivio aiuta a prevenire eventuali funzioni o casi d’uso non funzionanti.
+* `missing.original.rendition`: identifica le risorse con una rappresentazione originale obbligatoria mancante nell’archivio.
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
 * Questo potrebbe causare l’errore di alcune funzionalità di Assets che dipendono dalle proprietà ereditate in Experience Manager as a Cloud Service.
-* AEM Assets dipende dall’esistenza del rendering originale. Se manca il rendering originale, l’elaborazione delle risorse nel Cloud Service avverrà in loop.
+* AEM Assets dipende dall’esistenza della rappresentazione originale. Se manca la rappresentazione originale, l’elaborazione delle risorse in Cloud Service finirà in loop.
 
 ## Soluzioni possibili {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_acv_guidance"
->title="Guida all&#39;implementazione"
->abstract="Adobe consiglia di rivedere la struttura del contenuto per evitare flussi di lavoro interrotti che dipendono da proprietà ereditate. Contatta l’Assistenza clienti per ricevere assistenza."
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
+>title="Guida all’implementazione"
+>abstract="Adobe consiglia di rivedere la struttura del contenuto per evitare flussi di lavoro interrotti che dipendono da proprietà ereditate. Contatta l’Assistenza clienti per ricevere aiuto."
+>additional-url="https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
 
-* Analizza una cartella se presenta un nodo figlio mancante. Crea manualmente i nodi se il numero di cartelle è gestibile, altrimenti utilizza uno script.
-* Per le risorse mancanti del rendering originale, ricarica le risorse o eliminale prima di eseguire la migrazione.
-* Contatta il nostro [Experience Manager Customer Care Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) ottenere chiarimenti o affrontare le preoccupazioni.
+* Analizza una cartella se presenta un nodo secondario mancante. Crea manualmente i nodi se il numero di cartelle è gestibile, altrimenti utilizza uno script.
+* Se ci sono risorse in cui manca la rappresentazione originale, ricaricale o eliminale prima di eseguire la migrazione.
+* Contatta il [team di assistenza clienti di Experience Manager](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o risolvere dubbi.
