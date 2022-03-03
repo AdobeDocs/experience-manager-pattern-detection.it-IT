@@ -1,20 +1,20 @@
 ---
 hide: true
-user-guide-title: Guida al rilevamento pattern di Experience Manager
-breadcrumb-title: Rilevamento pattern AEM
-user-guide-description: Scopri il rilevamento pattern di Adobe Experience Manager.
+user-guide-title: Guida del rilevamento pattern di Experience Manager
+breadcrumb-title: Rilevamento pattern di AEM
+user-guide-description: Informazioni sul rilevamento pattern di Adobe Experience Manager.
 feature-set: Experience Manager
 feature: Developer Tools
 role: Developer
 source-git-commit: cf5f2f8a9bcc4d745f424570875d21001e2f26f6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '47'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 
-# Guida al rilevamento pattern di Experience Manager {#table-of-contents}
+# Guida del rilevamento pattern di Experience Manager {#table-of-contents}
 
 + [ACV](acv.md)
 + [ASO](aso.md)
