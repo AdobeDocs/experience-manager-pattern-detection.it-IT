@@ -1,7 +1,6 @@
 ---
 source-git-commit: 2391ad7851d4e6634a7bacd684b08db44a9c78e8
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
 source-wordcount: '530'
 ht-degree: 100%
 
@@ -25,7 +24,7 @@ Pur accogliendo con favore qualsiasi contributo volto a migliorare la documentaz
 La procedura per apportare il proprio contributo è molto semplice. È possibile contribuire in due modi:
 
 * [Segnalare un problema](#create-an-issue)
-* [Creare una richiesta](#create-a-pull-request)
+* [Creare una richiesta pull](#create-a-pull-request)
 
 Il metodo scelto dipende dal grado di familiarità con le procedure di modifica della documentazione in GitHub.
 
@@ -39,7 +38,7 @@ Desideri proporre un suggerimento o un’osservazione sulla documentazione corre
 
 La segnalazione di un problema consente di descrivere facilmente la tua proposta per migliorare la documentazione, che verrà esaminata da un membro del team addetto alla documentazione dei AEM. A tale scopo, fai clic sul collegamento **Log an issue** (Registra un problema) in alto nel riquadro di navigazione a destra di qualsiasi pagina.
 
-### Creare una richiesta {#create-a-pull-request}
+### Creare una richiesta pull {#create-a-pull-request}
 
 Se noti un problema e sai con esattamente come correggerlo, puoi creare una richiesta. Le richieste consentono di apportare alla documentazione le modifiche desiderate che, prima di essere pubblicate, saranno esaminate da un membro del team addetto alla documentazione di AEM. A tale scopo, fai clic sul collegamento **Edit this page** (Modifica questa pagina) in alto nel riquadro di navigazione a destra di qualsiasi pagina.
 
