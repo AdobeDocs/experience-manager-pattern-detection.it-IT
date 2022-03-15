@@ -3,9 +3,9 @@ title: FORM
 description: Pagina della guida del codice di Pattern Detector
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 5ba6a9a4b6da17bd78acdd82c955e296d8bbc994
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1110'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Risolvi i seguenti problemi, prima di eseguire la migrazione a [!DNL Adobe Exper
 
 * Il passaggio Verifica non è disponibile. (VERIFY_STEP)
 
-* L’azione di invio **[!UICONTROL Invia a Forms Workflow]** non è disponibile. Nelle versioni AEM 6.5 Forms e precedenti, l’azione Invia è stata utilizzata per inviare dati del modulo adattivo ad AEM Forms legacy su flussi di lavoro e LiveCycli Workflow JEE. (LC_WORKFLOW_SUBMISSION)
+* L’azione di invio **[!UICONTROL Invia a Forms Workflow]** non è disponibile. In AEM 6.5 Forms e versioni precedenti, l’azione di invio veniva utilizzata per inviare i dati del modulo adattivo ai flussi di lavoro JEE e LiveCycle precedenti di AEM Forms. (LC_WORKFLOW_SUBMISSION)
 
 * La funzionalità di comunicazione interattiva non è disponibile.  (FP_PROFILE_INTERACTIVE_COMMUNICATIONS).
 
@@ -68,7 +68,7 @@ Risolvi i seguenti problemi, prima di eseguire la migrazione a [!DNL Adobe Exper
 >id="aemcloud_bpa_forms_guidance"
 >title="Guida all’implementazione"
 >abstract="Le informazioni esposte tramite il codice FORMS possono fornire indicazioni sulle sostituzioni e altre azioni necessarie per rendere alcune funzioni e API compatibili con Cloud Service. Contatta il supporto Adobe per assistenza e chiarimenti"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
+>additional-url="https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
 
 * Utilizza l’utilità di migrazione per convertire tutti gli script di regole nel tuo ambiente in funzioni riutilizzabili. È possibile sfruttare le funzioni riutilizzabili con l’editor di regole visive per continuare a ottenere gli stessi risultati degli script di regole. (CODE_EDITOR)
 
@@ -82,9 +82,9 @@ Risolvi i seguenti problemi, prima di eseguire la migrazione a [!DNL Adobe Exper
 
 * Rimuovi il passaggio di verifica dai moduli adattivi esistenti prima di spostarli in un ambiente [!DNL Cloud Service]. (VERIFY_STEP)
 
-* Modifica i moduli adattivi esistenti per utilizzare le azioni di invio [Invia all’endpoint REST](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=it#submit-to-rest-endpoint), [Invia e-mail](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=it#send-email), [Invia utilizzando il modello dati del modulo](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=it#submit-using-form-data-model) e [Richiama un flusso di lavoro AEM.](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=it#invoke-an-aem-workflow)
+* Modifica i moduli adattivi esistenti per utilizzare le azioni di invio [Invia a endpoint REST](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=it#submit-to-rest-endpoint), [Invia e-mail](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=it#send-email), [Invia utilizzando modello dati del modulo](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=it#submit-using-form-data-model) e [Richiama un flusso di lavoro AEM.](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=it#invoke-an-aem-workflow)
 
-* Puoi sviluppare un flusso di lavoro AEM e modificare i moduli adattivi esistenti per utilizzare l’azione di invio [Flusso di lavoro AEM](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) per inviare dati a un flusso di lavoro AEM invece di utilizzare l’azione **[!UICONTROL Invia a Forms Workflow]**. È possibile sviluppare un’azione di invio personalizzata per inviare dati, allegati o documenti Record (DoR) a un processo di LiveCycle invece di utilizzare [!UICONTROL Invia a Forms Workflow]. (LC_WORKFLOW_SUBMISSION)
+* Puoi sviluppare un flusso di lavoro AEM e modificare i moduli adattivi esistenti per utilizzare l’azione di invio [Flusso di lavoro AEM](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=it#invoke-an-aem-workflow) per inviare dati a un flusso di lavoro AEM invece di utilizzare l’azione **[!UICONTROL Invia a Forms Workflow]**. È possibile sviluppare un’azione di invio personalizzata per inviare dati, allegati o documenti Record (DoR) a un processo di LiveCycle invece di utilizzare [!UICONTROL Invia a Forms Workflow]. (LC_WORKFLOW_SUBMISSION)
 
 * Per informazioni sulla disponibilità della funzione di comunicazione interattiva, consulta le note sulla versione mensili. Non eseguire la migrazione di comunicazioni interattive, lettere e dizionari correlati in un ambiente di Cloud Service fino a quando la funzione non sarà disponibile. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
@@ -98,4 +98,4 @@ Risolvi i seguenti problemi, prima di eseguire la migrazione a [!DNL Adobe Exper
 
 * Il supporto per Forms adattivo basato su XFA non è immediatamente disponibile. Se desideri utilizzare Forms adattivo basato su XFA, contatta il Supporto Adobe con i dettagli del caso d’uso e i requisiti specifici.(XFA_BASED_FORM, XDP_BASED_FORM)
 
-Rivolgiti al [Supporto Adobe](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per risolvere i dubbi.
+Per eventuali domande o dubbi, contatta il [Supporto Adobe](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
