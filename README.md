@@ -1,14 +1,13 @@
 ---
 source-git-commit: 6615eef21010d2f9ccbc7ecab32cf21901ca5387
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
 source-wordcount: '73'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
-# Rilevamento pattern Adobe Experience Manager
+# Rilevamento pattern di Adobe Experience Manager
 
-Questo è l’archivio per Rilevamento pattern di Adobe Experience Manager.
+Questo è l’archivio per il rilevamento pattern di Adobe Experience Manager.
 
 Saremo lieti di accogliere anche il contributo alla documentazione. Consulta le risorse seguenti:
 
