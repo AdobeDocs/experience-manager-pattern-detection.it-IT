@@ -2,10 +2,10 @@
 title: ASO
 description: Pagina della guida del codice di Pattern Detector
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: ff4f798d540d52d7875e514a2edb959e64e068fb
-workflow-type: ht
-source-wordcount: '364'
-ht-degree: 100%
+source-git-commit: a6bb7df8d0fbad0a233db6972bbb82902aa60c4b
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ Panoramica del sistema AEM
 >id="aemcloud_bpa_aso_overview"
 >title="Panoramica del sistema AEM"
 >abstract="Il codice ASO identifica informazioni generali sull’istanza di AEM. Ogni risultato fornisce un valore di un particolare tipo di informazioni di sistema, e può essere utile per la pianificazione della migrazione e le iniziative di refactoring."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=it" text="AEM as a Cloud Service: note sulla versione"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEM as a Cloud Service: note sulla versione"
 
 `ASO` identifica informazioni generali sull’istanza di AEM. Ogni risultato fornisce un valore di un particolare tipo di informazioni di sistema.
 
@@ -38,6 +38,7 @@ I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 * `ccom.version`: versione del pacchetto dei componenti core.
 * `instance.type`: tipo di istanza di AEM (author|publish).
 * `unprocessed.asset.count`: numero di risorse non elaborate.
+* `vanity.url.count`: Numero di URL personalizzati.
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
@@ -51,7 +52,7 @@ I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 >id="aemcloud_bpa_aso_guidance"
 >title="Guida all’implementazione"
 >abstract="Le informazioni esposte tramite codice ASO sono generiche per l’ambiente AEM, tra cui versione, componenti aggiuntivi per prodotti e informazioni a livello di sistema, e devono essere verificate per eventuali prodotti o funzionalità non supportati in AEM as a Cloud Service. Per assistenza e chiarimenti, contatta il supporto Adobe."
->additional-url="https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
 
 * Gli aggiornamenti di AEM con prodotti o funzionalità non supportati non sono consigliati e potrebbero non essere supportati.
 * Consulta le [note sulla versione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=it) per scoprire le ultime modifiche implementate in AEM as a Cloud Service.
