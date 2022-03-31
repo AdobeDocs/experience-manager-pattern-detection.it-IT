@@ -3,7 +3,7 @@ title: OID
 description: Pagina della guida del codice di Pattern Detector
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
 source-git-commit: 71fd8c278f5fa2c44e489316be36d7d0376fe695
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ I sottotipi vengono utilizzati per identificare i diversi tipi di informazioni:
 >title="Guida all’implementazione"
 >abstract="È buona abitudine rivedere tutti gli indici personalizzati e ristrutturarli in base alle linee guida per l’indicizzazione dei contenuti. Sfrutta il convertitore di indice per migrare le definizioni di indice Oak personalizzato esistenti verso la definizione di indice Oak personalizzato compatibile con AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=it#oak-indexes" text="Linee guida per la creazione pacchetti"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/index-converter.html#refactoring-tools" text="Convertitore indice"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/index-converter.html?lang=it#refactoring-tools" text="Convertitore indice"
 
 * Le modifiche alle definizioni standard dell’indice Oak possono andare perse durante un aggiornamento AEM.
 * Le definizioni Oak non sono modificabili, devono essere inserite nel pacchetto con il codice del progetto del cliente e devono essere distribuite solo utilizzando Cloud Manager.
