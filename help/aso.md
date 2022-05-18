@@ -5,21 +5,21 @@ exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: a3b610f2028c4923344672dd71c2bd5d252a35c4
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 # ASO {#aso}
 
-Panoramica del sistema AEM
+AEM System Overview
 
-## Sfondo {#background}
+## Informazioni di base {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_aso_overview"
 >title="Panoramica del sistema AEM"
 >abstract="Il codice ASO identifica informazioni generali sull’istanza di AEM. Ogni risultato fornisce un valore di un particolare tipo di informazioni di sistema, e può essere utile per la pianificazione della migrazione e le iniziative di refactoring."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEM as a Cloud Service: note sulla versione"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEM as a Cloud Service - Note sulla versione"
 
 `ASO` identifica informazioni generali sull’istanza di AEM. Ogni risultato fornisce un valore di un particolare tipo di informazioni di sistema.
 
@@ -38,12 +38,12 @@ I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 * `ccom.version`: versione del pacchetto dei componenti core.
 * `instance.type`: tipo di istanza di AEM (author|publish).
 * `unprocessed.asset.count`: numero di risorse non elaborate.
-* `vanity.url.count`: numero di URL di reindirizzamento a microsito.
+* `vanity.url.count`: numero di URL persoanlizzati.
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
-* La versione AEM, i conteggi dei nodi, l’appartenenza al gruppo, l’archivio dei nodi, i tipi di implementazione dell’archivio dati, il conteggio dei tag CQ, il conteggio dei tag avanzati, la versione del componente core, AEM tipo di istanza e il conteggio delle risorse non elaborate sono forniti a scopo informativo.
-* Il numero più elevato di URL personalizzati (>1000) può caricare Dispatcher e i server di pubblicazione con query costose.
+* I seguenti dati sono forniti a scopo informativo: versione di AEM, numero di nodi, appartenenza ai gruppi, archivio nodi, tipi di implementazione dell’archivio dati, numero di tag CQ e di tag avanzati, versione dei componenti core, tipo di istanza di AEM e numero di risorse non elaborate.
+* Un numero elevato di URL personalizzati (>1000) può comportare un carico notevole per Dispatcher e i server Publish con query costose.
 * L’applicazione personalizzata può basarsi su prodotti o funzionalità non disponibili in AEM as a Cloud Service.
 * L’aggiornamento con funzioni non supportate potrebbe impedire l’aggiornamento o il corretto funzionamento di un’applicazione.
 
@@ -56,7 +56,7 @@ I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
 
 * Gli aggiornamenti di AEM con prodotti o funzionalità non supportati non sono consigliati e potrebbero non essere supportati.
-* Le risorse non elaborate devono essere elaborate e la proprietà dam:assetState sul nodo jcr:content della risorsa deve essere impostata su &quot;elaborati&quot; o rimuovere queste risorse dal set di migrazione prima di migrare ad AEMaaCS.
-* Gli URL personalizzati possono essere sostituiti con Apache Rewrites.
+* Le risorse non elaborate devono essere elaborate e la proprietà dam:assetState sul nodo jcr:content della risorsa deve essere impostata su “processed”; in alternativa, rimuovi queste risorse dal set di migrazione prima di migrare ad AEMaaCS.
+* Gli URL personalizzati possono essere sostituiti con Apache Rewrite.
 * Consulta le [note sulla versione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=it) per scoprire le ultime modifiche implementate in AEM as a Cloud Service.
-* Contatta il [Team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o risolvere dubbi.
+* Per eventuali domande o dubbi, contatta il [Team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
