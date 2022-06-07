@@ -3,9 +3,9 @@ title: UMI
 description: Pagina della guida del codice di Pattern Detector
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
 source-git-commit: b19818f3f043641328b68adfe37a9c9cb09d1143
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -45,11 +45,11 @@ Le seguenti configurazioni vengono verificate per la modifica:
 >id="aemcloud_bpa_umi_guidance"
 >title="Guida all’implementazione"
 >abstract="Si consiglia di rivedere le configurazioni correnti e ripristinare eventuali modifiche apportate alle configurazioni citate per evitare problemi futuri di aggiornamento. Contatta il supporto Adobe per assistenza e chiarimenti"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
+>additional-url="https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
 
 * Non modificare o rimuovere le quattro configurazioni sopra menzionate.
-   * In caso di violazione:\
-      &quot;Mancano le proprietà richieste per la configurazione OSGi &#39;xyz-configuration&#39;: &#39;[property-1,property-2...]&quot;\
+   * Se si verifica la seguente violazione:\
+      “Mancano le proprietà richieste per la configurazione OSGi “xyz-configuration”: “[property-1,property-2...]”.”\
       Conferma se queste eliminazioni sono legittime o meno perché queste configurazioni OSGI sono OOTB e potrebbero non essere mai state modificate/salvate dal gestore di configurazione OSGi.
 * Se le configurazioni sono state modificate, è necessario riportarle ai valori previsti. Questi valori sono indicati nei messaggi `UMI`.
 * Per `com.day.cq.commons.impl.ExternalizerImpl`, consulta la [documentazione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/externalizer.html?lang=it) relativa all’impostazione della configurazione di Externalizer utilizzando le variabili di ambiente di Cloud Manager in AEM as a Cloud Service.
