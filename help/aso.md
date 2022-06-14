@@ -2,10 +2,10 @@
 title: ASO
 description: Pagina della guida del codice di Pattern Detector
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: a3b610f2028c4923344672dd71c2bd5d252a35c4
+source-git-commit: 9b46c353b052da43eca7ed636f62e08109f74aab
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 98%
 
 ---
 
@@ -39,6 +39,7 @@ I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 * `instance.type`: tipo di istanza di AEM (author|publish).
 * `unprocessed.asset.count`: numero di risorse non elaborate.
 * `vanity.url.count`: numero di URL persoanlizzati.
+* `index.size`: Dimensione totale dell&#39;indice Lucene migrabile.
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
