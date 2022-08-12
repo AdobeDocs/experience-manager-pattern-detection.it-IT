@@ -3,9 +3,9 @@ title: LUI
 description: Pagina della guida del codice di Pattern Detector
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
 source-git-commit: 1c2d064c239ad6f5599678d8057fe2a6b7fd8d01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '703'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -58,9 +58,9 @@ I sottotipi vengono utilizzati per identificare i diversi tipi di elementi dell�
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_lui_tools"
 >title="Strumenti e risorse"
->abstract="Con l’aiuto della suite di strumenti AEM Modernization, i clienti possono convertire le finestre di dialogo Classic (ExtJS) in finestre di dialogo Coral. L’obiettivo è aiutare i clienti a passare dalle funzionalità non supportate o precedenti alle robuste e moderne offerte AEM. Questi strumenti sono configurabili, adattabili alla configurazione ed estensibili. Inoltre, per accelerare i tempi di sviluppo e ridurre i costi di manutenzione delle applicazioni, approfondisci la sostituzione dei componenti personalizzati con il set di componenti core standardizzati."
+>abstract="Con l’aiuto della suite di strumenti AEM Modernization, i clienti possono convertire le finestre di dialogo Classic (ExtJS) in finestre di dialogo Coral. L’obiettivo è aiutare i clienti a passare dalle funzionalità non supportate o precedenti alle robuste e moderne offerte AEM. Questi strumenti sono configurabili, estensibili e tengono conto delle configurazioni. Inoltre, per accelerare i tempi di sviluppo e ridurre i costi di manutenzione delle applicazioni, approfondisci la sostituzione dei componenti personalizzati con il set di componenti core standardizzati."
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/component/about.html" text="Convertitore componente"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="Componenti core"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=it" text="Componenti core"
 
 * Utilizza la [suite di strumenti AEM Modernization Tools](https://opensource.adobe.com/aem-modernize-tools/) per semplificare il lavoro necessario per modernizzare le implementazioni AEM Sites. Questi strumenti includono la conversione di:
    * Finestre di dialogo classiche (ExtJS) in finestre di dialogo Coral
