@@ -2,10 +2,10 @@
 title: LUI
 description: Pagina della guida del codice di Pattern Detector
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
-source-git-commit: 1c2d064c239ad6f5599678d8057fe2a6b7fd8d01
-workflow-type: ht
-source-wordcount: '703'
-ht-degree: 100%
+source-git-commit: 1553f13b8d6b92363a80298b4d05bd885c6f3a6a
+workflow-type: tm+mt
+source-wordcount: '783'
+ht-degree: 89%
 
 ---
 
@@ -40,6 +40,8 @@ I sottotipi vengono utilizzati per identificare i diversi tipi di elementi dell�
    * I precedenti modelli per frammenti di contenuto si trovano nelle seguenti posizioni:
       * I precedenti modelli per frammenti di contenuto preconfigurati sono memorizzati in `/libs/settings/dam/cfm/templates`
       * Possono essere sovrapposti in  `/apps/settings/dam/cfm/templates`  o  `/conf/.../settings/dam/cfm/templates`(... = global o “tenant”)
+* `translation.dictionary`: Dizionario I18n presente sotto /apps.
+   * /apps non è modificabile in fase di esecuzione e il file tradator.html non sarà più disponibile in AEM as a cloud service.
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
@@ -52,6 +54,7 @@ I sottotipi vengono utilizzati per identificare i diversi tipi di elementi dell�
 * L’interfaccia utente classica non è più disponibile in AEM as a Cloud Service. L’interfaccia standard per l’authoring è l’interfaccia touch.
 * L’utilizzo di componenti personalizzati precedenti può aumentare i costi di manutenzione nel tempo.
 * I precedenti modelli per frammenti di contenuto sono stati sostituiti dai nuovi modelli per frammenti di contenuto in AEM 6.3. Quando i frammenti di contenuto basati su modelli di vecchia generazione vengono migrati ad AEM as a Cloud Service, tali frammenti continueranno a funzionare ma non sarà possibile creare nuovi frammenti basati sul modello precedente. Inoltre, non sarà possibile distribuire tali frammenti mediante AEM GraphQL, che richiede come schemi i nuovi modelli per frammenti di contenuto.
+* /apps non è modificabile in fase di esecuzione e il file tradator.html non sarà più disponibile in AEM as a cloud service. Pertanto i dizionari I18n devono provenire da Git tramite la pipeline CI/CD.
 
 ## Soluzioni possibili {#solutions}
 
@@ -60,7 +63,7 @@ I sottotipi vengono utilizzati per identificare i diversi tipi di elementi dell�
 >title="Strumenti e risorse"
 >abstract="Con l’aiuto della suite di strumenti AEM Modernization, i clienti possono convertire le finestre di dialogo Classic (ExtJS) in finestre di dialogo Coral. L’obiettivo è aiutare i clienti a passare dalle funzionalità non supportate o precedenti alle robuste e moderne offerte AEM. Questi strumenti sono configurabili, estensibili e tengono conto delle configurazioni. Inoltre, per accelerare i tempi di sviluppo e ridurre i costi di manutenzione delle applicazioni, approfondisci la sostituzione dei componenti personalizzati con il set di componenti core standardizzati."
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/component/about.html" text="Convertitore componente"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=it" text="Componenti core"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="Componenti core"
 
 * Utilizza la [suite di strumenti AEM Modernization Tools](https://opensource.adobe.com/aem-modernize-tools/) per semplificare il lavoro necessario per modernizzare le implementazioni AEM Sites. Questi strumenti includono la conversione di:
    * Finestre di dialogo classiche (ExtJS) in finestre di dialogo Coral
@@ -69,4 +72,5 @@ I sottotipi vengono utilizzati per identificare i diversi tipi di elementi dell�
    * Progettazione e finestre di dialogo di progettazione in criteri di modelli modificabili
 * Esamina la libreria di componenti personalizzati del tuo progetto e la transizione, se possibile, al set di componenti standardizzati [Componenti core](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=it) per accelerare i tempi di sviluppo e ridurre i costi di manutenzione delle applicazioni.
 * Si consiglia di creare modelli per frammenti di contenuto con funzionalità equivalenti ai modelli di vecchia generazione e di utilizzare d’ora in avanti tali nuovi modelli per creare frammenti di contenuto. Per ulteriori dettagli, consulta [Modelli per frammenti di contenuto](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=it).
+* I dizionari I18n devono provenire da Git tramite la pipeline CI/CD. [Documentazione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes.html?lang=en#apps-libs-immutable)
 * Per eventuali domande o dubbi, contatta il [Team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
