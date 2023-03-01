@@ -3,9 +3,9 @@ title: ACV
 description: Pagina della guida del codice di Pattern Detector
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: 0a6b0f8f2b64bf1c966b8f282a2205f2772afe3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '401'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ I sottotipi vengono utilizzati per identificare i diversi tipi di informazioni, 
 * `missing.jcrcontent`: identifica le cartelle con nodi obbligatori mancanti nell’archivio. L’identificazione di eventuali contenuti mancanti nell’archivio aiuta a prevenire eventuali funzioni o casi d’uso non funzionanti.
 * `missing.original.rendition`: identifica le risorse con una rappresentazione originale obbligatoria mancante nell’archivio. Tieni presente che l’anteprima delle pagine PDF non richiede la generazione di risorse secondarie in AEMaaCS. Pertanto, per le risorse PDF, viene soppressa la segnalazione di risorse secondarie con rappresentazione originale mancante.
 * `metadata.descendants.violation`: identifica le risorse con più di 100 discendenti sotto il nodo dei metadati della risorsa nell’archivio.
-* `conflict.node`: Identifica la presenza di nodi di conflitto nell&#39;archivio sotto il percorso /content/dam/.
+* `conflict.node`: identifica la presenza di nodi di conflitto nell’archivio sotto il percorso /content/dam/.
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
