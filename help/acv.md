@@ -2,10 +2,10 @@
 title: ACV
 description: Pagina della guida del codice di Pattern Detector
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 0a6b0f8f2b64bf1c966b8f282a2205f2772afe3f
-workflow-type: ht
-source-wordcount: '401'
-ht-degree: 100%
+source-git-commit: bbeb7193e198a32a9bc966e1821b1058dbbc8c02
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 81%
 
 ---
 
@@ -30,6 +30,7 @@ I sottotipi vengono utilizzati per identificare i diversi tipi di informazioni, 
 * `missing.original.rendition`: identifica le risorse con una rappresentazione originale obbligatoria mancante nell’archivio. Tieni presente che l’anteprima delle pagine PDF non richiede la generazione di risorse secondarie in AEMaaCS. Pertanto, per le risorse PDF, viene soppressa la segnalazione di risorse secondarie con rappresentazione originale mancante.
 * `metadata.descendants.violation`: identifica le risorse con più di 100 discendenti sotto il nodo dei metadati della risorsa nell’archivio.
 * `conflict.node`: identifica la presenza di nodi di conflitto nell’archivio sotto il percorso /content/dam/.
+* `psb.file.large`: identifica file PSB di grandi dimensioni (dc:format : application/vnd.3gpp.pic-bw-small) aventi dimensioni superiori a 2 gigabyte.
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
@@ -37,6 +38,7 @@ I sottotipi vengono utilizzati per identificare i diversi tipi di informazioni, 
 * AEM Assets dipende dall’esistenza della rappresentazione originale. Se manca la rappresentazione originale, l’elaborazione delle risorse in Cloud Service darà luogo a un’esecuzione in loop. La generazione di risorse secondarie non è supportata in AEMaaCS.
 * Un numero elevato di discendenti sotto il nodo dei metadati potrebbe rallentare il caricamento di cartelle contenenti risorse interessate da questa violazione.
 * La presenza di nodi di conflitto potrebbe causare un errore di acquisizione su AEM as a Cloud Service.
+* L&#39;Experience Manager potrebbe non elaborare file PSB ad alta risoluzione. I clienti che utilizzano ImageMagick per l’elaborazione di file di grandi dimensioni potrebbero riscontrare un impatto sulle prestazioni se non si esegue un corretto benchmarking del server Experience Manager.
 
 ## Soluzioni possibili {#solutions}
 
@@ -50,4 +52,5 @@ I sottotipi vengono utilizzati per identificare i diversi tipi di informazioni, 
 * Se ci sono risorse in cui manca la rappresentazione originale, ricaricale o eliminale prima di eseguire la migrazione.
 * Non è necessaria alcuna azione in caso di rappresentazioni originali mancanti per risorse secondarie.
 * In caso di nodi di conflitto, è necessario risolverli o eliminarli prima di eseguire la migrazione a AEM as a Cloud Service.
+* Contatta l’Assistenza clienti Adobe se intendi elaborare molti file PSD o PSB di grandi dimensioni. L&#39;Experience Manager potrebbe non elaborare file PSB ad altissima risoluzione con una risoluzione superiore a 30000 x 23000 pixel. Fare riferimento a [documentazione](https://experienceleague.adobe.com/docs/experience-manager-64/assets/extending/best-practices-for-imagemagick.html).
 * Per eventuali domande o dubbi, contatta il [team di assistenza clienti di Experience Manager](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
