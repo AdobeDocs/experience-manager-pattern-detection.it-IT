@@ -2,7 +2,7 @@
 title: ACV
 description: Pagina della guida del codice di Pattern Detector
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: bbeb7193e198a32a9bc966e1821b1058dbbc8c02
+source-git-commit: 1aa0169c5ea5180500fd41c8074a9bf561151b62
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -52,5 +52,5 @@ I sottotipi vengono utilizzati per identificare i diversi tipi di informazioni, 
 * Se ci sono risorse in cui manca la rappresentazione originale, ricaricale o eliminale prima di eseguire la migrazione.
 * Non è necessaria alcuna azione in caso di rappresentazioni originali mancanti per risorse secondarie.
 * In caso di nodi di conflitto, è necessario risolverli o eliminarli prima di eseguire la migrazione a AEM as a Cloud Service.
-* Contatta l’Assistenza clienti Adobe se intendi elaborare molti file PSD o PSB di grandi dimensioni. Experience Manager potrebbe non elaborare file PSB ad altissima risoluzione con una risoluzione superiore a 30000x23000 pixel. Consulta la [documentazione](https://experienceleague.adobe.com/docs/experience-manager-64/assets/extending/best-practices-for-imagemagick.html?lang=it).
+* Contatta l’Assistenza clienti Adobe se intendi elaborare molti file PSD o PSB di grandi dimensioni. Experience Manager potrebbe non elaborare file PSB ad altissima risoluzione con una risoluzione superiore a 30000x23000 pixel. Consulta la [documentazione](https://experienceleague.adobe.com/docs/experience-manager-65/assets/extending/best-practices-for-imagemagick.html?lang=it).
 * Per eventuali domande o dubbi, contatta il [team di assistenza clienti di Experience Manager](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
