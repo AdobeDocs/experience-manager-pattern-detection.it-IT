@@ -31,7 +31,7 @@ I sottotipi vengono utilizzati per identificare diversi tipi di violazioni rilev
 * `maintenance.task.configuration`: configurazione di una certa attività di manutenzione periodica.
 * `sling.commons.scheduler`: utilizzo dell’API Sling Commons Scheduler per un’attività pianificata.
 * `unsupported.asset.api`: utilizzo delle API di Asset Manager non supportate nel codice dell’applicazione.
-* `javax.jcr.observation.EventListener`: utilizzo del listener di eventi nel codice dell’applicazione.
+* `javax.jcr.observation.EventListener`: L&#39;utilizzo di Event Listener nel codice dell&#39;applicazione.
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
@@ -82,5 +82,5 @@ I sottotipi vengono utilizzati per identificare diversi tipi di violazioni rilev
    * Anziché utilizzare le API non supportate di Asset Manager, utilizza [aem-upload](https://github.com/adobe/aem-upload).
 
 * `javax.jcr.observation.EventListener`
-   * Invece di utilizzare il listener di eventi, si consiglia di eseguire il refactoring del meccanismo di gestione degli eventi in [Processi Sling](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) in quanto garantisce il trattamento dei dati.
+   * Invece di utilizzare il listener di eventi, si consiglia di eseguire il refactoring del meccanismo di gestione degli eventi in [Processi Sling](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) in quanto fornisce la garanzia del trattamento.
 * Per eventuali domande o dubbi, contatta il [Team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).

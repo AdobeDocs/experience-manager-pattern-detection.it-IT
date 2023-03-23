@@ -3,7 +3,7 @@ title: URC
 description: Pagina della guida del codice di Pattern Detector
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
 source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 100%
 

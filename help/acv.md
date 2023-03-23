@@ -4,8 +4,8 @@ description: Pagina della guida del codice di Pattern Detector
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: 1aa0169c5ea5180500fd41c8074a9bf561151b62
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '492'
+ht-degree: 100%
 
 ---
 
