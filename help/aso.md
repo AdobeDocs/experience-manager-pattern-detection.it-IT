@@ -2,10 +2,10 @@
 title: ASO
 description: Pagina della guida del codice di Pattern Detector
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 9b46c353b052da43eca7ed636f62e08109f74aab
+source-git-commit: 725a04c2d0c7f14673ac8cef9b62239ae3a5166c
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -40,6 +40,7 @@ I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 * `unprocessed.asset.count`: numero di risorse non elaborate.
 * `vanity.url.count`: numero di URL personalizzati.
 * `index.size`: dimensione totale dell’indice Lucene migrabile.
+* `workflow.count`: Il numero di flussi di lavoro di authoring in esecuzione e in stato non aggiornato.
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
@@ -47,6 +48,7 @@ I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 * Un numero elevato di URL personalizzati (>1000) può comportare un carico notevole per Dispatcher e i server Publish con query costose.
 * L’applicazione personalizzata può basarsi su prodotti o funzionalità non disponibili in AEM as a Cloud Service.
 * L’aggiornamento con funzioni non supportate potrebbe impedire l’aggiornamento o il corretto funzionamento di un’applicazione.
+* Un numero elevato di flussi di lavoro di authoring in esecuzione o in stato obsoleto potrebbe peggiorare le prestazioni.
 
 ## Soluzioni possibili {#solutions}
 
