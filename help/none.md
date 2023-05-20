@@ -2,7 +2,7 @@
 title: NESSUNO
 description: Pagina della guida del codice di Pattern Detector
 source-git-commit: fcd6e634d31c6f3062393c4538bf86c15bf4492f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '34'
 ht-degree: 100%
 
