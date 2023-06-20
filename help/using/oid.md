@@ -3,7 +3,7 @@ title: OID
 description: Pagina della guida del codice di Pattern Detector
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
 source-git-commit: d3e518cf8ad53a2cd28d4eea7f9b75c672881507
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
 ht-degree: 100%
 
