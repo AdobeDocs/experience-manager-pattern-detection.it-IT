@@ -2,10 +2,10 @@
 title: ASO
 description: Pagina della guida del codice di Pattern Detector
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 4f5ac6b496ca1fb67ced52b4ec105034a869a2d0
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 100%
+source-wordcount: '488'
+ht-degree: 95%
 
 ---
 
@@ -49,6 +49,7 @@ I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 * L’applicazione personalizzata può basarsi su prodotti o funzionalità non disponibili in AEM as a Cloud Service.
 * L’aggiornamento con funzioni non supportate potrebbe impedire l’aggiornamento o il corretto funzionamento di un’applicazione.
 * Un numero elevato di flussi di lavoro di authoring in stato In esecuzione o Non aggiornato potrebbe peggiorare le prestazioni.
+* Le query lente possono compromettere le prestazioni del sistema.
 
 ## Soluzioni possibili {#solutions}
 
@@ -61,5 +62,6 @@ I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 * Gli aggiornamenti di AEM con prodotti o funzionalità non supportati non sono consigliati e potrebbero non essere supportati.
 * Le risorse non elaborate devono essere elaborate e la proprietà dam:assetState sul nodo jcr:content della risorsa deve essere impostata su “processed”; in alternativa, rimuovi queste risorse dal set di migrazione prima di migrare ad AEMaaCS.
 * Gli URL personalizzati possono essere sostituiti con Apache Rewrite.
+* Fare riferimento a [documentazione](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html) per la risoluzione dei problemi relativi a query lente.
 * Consulta le [note sulla versione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=it) per scoprire le ultime modifiche implementate in AEM as a Cloud Service.
 * Per eventuali domande o dubbi, contatta il [Team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
