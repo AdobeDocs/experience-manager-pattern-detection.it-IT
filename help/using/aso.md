@@ -2,10 +2,10 @@
 title: ASO
 description: Pagina della guida del codice di Pattern Detector
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 4f5ac6b496ca1fb67ced52b4ec105034a869a2d0
+source-git-commit: a899311c975efee180bc1d3bc3c7bca30d429a22
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 95%
+source-wordcount: '498'
+ht-degree: 93%
 
 ---
 
@@ -41,6 +41,7 @@ I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 * `vanity.url.count`: numero di URL personalizzati.
 * `index.size`: dimensione totale dell’indice Lucene migrabile.
 * `workflow.count`: numero di flussi di lavoro di authoring in stato In esecuzione e Non aggiornato.
+* `jvm.arguments`: argomenti JVM aggiunti alla riga di comando all’avvio di AEM.
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
