@@ -2,9 +2,9 @@
 title: URS
 description: Pagina della guida del codice di Pattern Detector
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: d5b8b890502e9951acf01bc15fc1aa2e526ea9e5
-workflow-type: ht
-source-wordcount: '430'
+source-git-commit: d2ba93866c8f2b50c36ba6f5e9c5dc0313731c3b
+workflow-type: tm+mt
+source-wordcount: '419'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,6 @@ Struttura dell’archivio non supportata
 
 * Il codice prodotto AEM verrà sempre inserito in `/libs`, che non deve essere sovrascritto dal codice personalizzato.
 * Il codice personalizzato deve essere inserito in `/apps`, `/content` e `/conf`.
-* AEM as a Cloud Service non supporta i nomi dei nodi lunghi (>150 byte).
 * Si consiglia vivamente di seguire queste linee guida per AEM as a Cloud Service.
 
 I sottotipi vengono utilizzati per identificare i tipi specifici di problemi dell’archivio che devono essere risolti:

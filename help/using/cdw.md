@@ -2,10 +2,10 @@
 title: CDW
 description: Pagina della guida del codice di Pattern Detector
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: d2ba93866c8f2b50c36ba6f5e9c5dc0313731c3b
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 100%
+source-wordcount: '159'
+ht-degree: 88%
 
 ---
 
@@ -20,11 +20,10 @@ Custom Dialog Widget (CDW, widget per finestre di dialogo personalizzati)
 >title="Custom Dialog Widget (CDW, widget per finestre di dialogo personalizzati)"
 >abstract="CDW identifica i widget per finestre di dialogo personalizzati che devono essere aggiornati per renderli compatibili con AEM as a Cloud Service."
 
-I widget per finestre di dialogo personalizzati `CDW` identificano i widget per finestre di dialogo CoralUI e Classic personalizzati. Questi devono essere aggiornati per renderli compatibili con AEM as a Cloud Service.
+`CDW`  I widget per finestre di dialogo personalizzati identificano i widget per finestre di dialogo classici personalizzati. Questi devono essere aggiornati per renderli compatibili con AEM as a Cloud Service.
 
-I sottotipi vengono utilizzati per identificare i diversi tipi di informazioni, ad esempio:
+I sottotipi vengono utilizzati per identificare le informazioni, ad esempio:
 
-* `custom.coral.widget`: identifica i widget per finestre di dialogo personalizzati basati su CoralUI 2 o CoralUI 3.
 * `custom.classic.widget`: identifica i widget per finestre di dialogo personalizzati basati su ExtJs.
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
@@ -40,5 +39,4 @@ I sottotipi vengono utilizzati per identificare i diversi tipi di informazioni, 
 >additional-url="https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
 
 * I widget per finestre di dialogo classici personalizzati devono essere convertiti da ExtJS a [CoralUI](https://developer.adobe.com/experience-manager/reference-materials/6-5/coral-ui/coralui3/getting-started.html).
-* I widget per finestre di dialogo Coral personalizzati devono essere valutati per l’aggiornamento a CoralUI 3.
 * Per eventuali domande o dubbi, contatta il [team di assistenza clienti di Experience Manager](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
