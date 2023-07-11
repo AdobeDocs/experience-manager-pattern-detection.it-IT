@@ -4,7 +4,7 @@ description: Pagina della guida del codice di Pattern Detector
 source-git-commit: aa05ebcb54c6945a903c76add4f31e3279cd05b5
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 26%
+ht-degree: 30%
 
 ---
 
@@ -17,7 +17,7 @@ Problema di configurazione errata
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_mi_overview"
 >title="Problema di configurazione errata"
->abstract="MI identifica i problemi di configurazione nell’istanza AEM"
+>abstract="MI (Misconfiguration Issue, Problema di configurazione) individua eventuali problemi di configurazione nell’istanza AEM"
 
 `MI`  Configurazione errata Il problema identifica i problemi di configurazione nell’istanza AEM.
 
