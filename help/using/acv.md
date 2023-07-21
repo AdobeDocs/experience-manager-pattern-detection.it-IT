@@ -3,9 +3,9 @@ title: ACV
 description: Pagina della guida del codice di Pattern Detector
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: 1558502da1a63663ba239157bc1296e0a64e9616
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ I sottotipi vengono utilizzati per identificare i diversi tipi di informazioni, 
 * `metadata.descendants.violation`: identifica le risorse con più di 100 discendenti sotto il nodo dei metadati della risorsa nell’archivio.
 * `conflict.node`: identifica la presenza di nodi di conflitto nell’archivio sotto il percorso /content/dam/.
 * `psb.file.large`: identifica file PSB di grandi dimensioni (dc:format : application/vnd.3gpp.pic-bw-small) superiori a 2 gigabyte.
-* `invalid.asset.name`: identifica le risorse con caratteri non validi[* / : [\] | # % { } ? &amp;] nel nome.
+* `invalid.asset.name`: identifica le risorse con caratteri non validi [* / : [\] | # % { } ? &amp;] nel nome.
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
@@ -40,7 +40,7 @@ I sottotipi vengono utilizzati per identificare i diversi tipi di informazioni, 
 * Un numero elevato di discendenti sotto il nodo dei metadati potrebbe rallentare il caricamento di cartelle contenenti risorse interessate da questa violazione.
 * La presenza di nodi di conflitto potrebbe causare un errore di acquisizione su AEM as a Cloud Service.
 * Experience Manager potrebbe non elaborare file PSB ad altissima risoluzione. Se utilizzi ImageMagick per l’elaborazione di file di grandi dimensioni, potresti riscontrare un impatto sulle prestazioni se non esegui un corretto benchmarking del server Experience Manager.
-* Caratteri non validi nel nome della risorsa potrebbero causare errori durante la migrazione a AEM as a Cloud Service.
+* I caratteri non validi nel nome della risorsa potrebbero causare errori durante la migrazione ad AEM as a Cloud Service.
 
 ## Soluzioni possibili {#solutions}
 
