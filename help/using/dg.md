@@ -3,9 +3,9 @@ title: DG
 description: Pagina della guida del codice di Pattern Detector
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 65335d21a5035f023577c74fd073e0160a053932
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '699'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ I sottotipi vengono utilizzati per identificare diversi tipi di violazioni rilev
 * `sling.commons.scheduler`: utilizzo dell’API Sling Commons Scheduler per un’attività pianificata.
 * `unsupported.asset.api`: utilizzo delle API di Asset Manager non supportate nel codice dell’applicazione.
 * `javax.jcr.observation.EventListener`: utilizzo di un listener di eventi nel codice dell’applicazione.
-* `custom.guava.cache`: utilizzo della cache Guava nel codice dell’applicazione.
+* `custom.guava.cache`: l’utilizzo della cache Guava nel codice dell’applicazione.
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
@@ -89,5 +89,5 @@ I sottotipi vengono utilizzati per identificare diversi tipi di violazioni rilev
    * Invece di utilizzare il listener di eventi, si consiglia di eseguire il refactoring del meccanismo di gestione degli eventi con [Processi Sling](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) per essere sicuri che il processo venga eseguito.
 
 * `custom.guava.cache`
-   * Se necessario, le cache devono essere create al di fuori dell’AEM. Potrebbe essere presa in considerazione una soluzione di caching esterno.
-* Per eventuali domande o dubbi, contatta il [Team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
+   * Se necessario, le cache devono essere create al di fuori di AEM. Potrebbe essere presa in considerazione una soluzione di memorizzazione in cache esterna.
+* Per eventuali domande o dubbi, contatta il [team di supporto di AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
