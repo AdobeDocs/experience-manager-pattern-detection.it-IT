@@ -1,11 +1,11 @@
 ---
 title: INS
-description: Pagina della guida del codice di Pattern Detector
+description: Pagina della guida del codice di Pattern Detector.
 exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
-source-git-commit: 07af2303583072effbaaf23de1878e4d0dcfd2bd
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 100%
+source-wordcount: '106'
+ht-degree: 83%
 
 ---
 
@@ -39,4 +39,4 @@ I sottotipi vengono utilizzati per identificare i diversi tipi di informazioni, 
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html?lang=it" text="Supporto Experience Cloud"
 
 * Correggi le definizioni dello spazio dei nomi in base alle [specifiche JCR](https://developer.adobe.com/experience-manager/reference-materials/spec/jcr/1.0/4.5_Namespaces.html?lang=it). Segui i passaggi indicati [qui](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/how-can-i-delete-a-namespace-created-in-crx/td-p/225163)
-* Per eventuali domande o dubbi, contatta il [team di assistenza clienti di Experience Manager](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html?lang=it).
+* Contatta il [Experience Manager team di assistenza clienti](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html?lang=it) per ottenere chiarimenti o per risolvere dubbi.

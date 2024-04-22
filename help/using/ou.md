@@ -1,11 +1,11 @@
 ---
 title: OU
-description: Pagina della guida del codice di Pattern Detector
+description: Pagina della guida del codice di Pattern Detector.
 exl-id: 6ec96fab-dd6e-46af-864f-05dad387cbb6
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
-source-wordcount: '271'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 93%
 
 ---
 
@@ -41,4 +41,4 @@ Poiché le versioni precedenti non sono installate per impostazione predefinita,
 
 * A breve termine: potrebbe essere utile installare un pacchetto di compatibilità.
 * A lungo termine: adatta il codice del cliente per utilizzare la versione più recente di componenti o API AEM.
-* Contatta il [Team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o risolvere dubbi.
+* Contatta il [Team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per fugare i dubbi.

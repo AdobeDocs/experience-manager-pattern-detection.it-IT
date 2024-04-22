@@ -1,10 +1,10 @@
 ---
 title: MODELLO
-description: Modello per la pagina della guida del codice del rilevatore pattern
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
-source-wordcount: '121'
-ht-degree: 100%
+description: Modello per la pagina della guida del codice del rilevatore pattern.
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 83%
 
 ---
 
@@ -33,4 +33,4 @@ Rispondi alla domanda: “Cosa posso fare?”
 
 * possibile soluzione n. 1
 * possibile soluzione n. 2
-* Contatta il [Team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o risolvere dubbi.
+* Contatta il [Team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per fugare i dubbi.

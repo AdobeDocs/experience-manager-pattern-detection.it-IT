@@ -1,31 +1,31 @@
 ---
 title: MSM
-description: Pagina della guida del codice di Pattern Detector
+description: Pagina della guida del codice di Pattern Detector.
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
-source-wordcount: '154'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '147'
+ht-degree: 56%
 
 ---
 
 # MSM {#msm}
 
-Gestore multisito
+Gestione multisito
 
-## Sfondo {#background}
+## Informazioni di base {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_msm_overview"
->title="Gestore multisito"
+>title="Gestione multisito"
 >abstract="MSM identifica informazioni generali sulla funzione di gestore multisito AEM. Queste informazioni sono fornite per aiutare a caratterizzare il sistema."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=it" text="Modifiche importanti in AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Modifiche importanti in AEM as a Cloud Service"
 
-`MSM` identifica informazioni generali sulla funzione di gestore multisito AEM. Queste informazioni sono fornite per aiutare a caratterizzare il sistema.
+MSM identifica informazioni generali sulla funzione di gestore multisito AEM. Queste informazioni sono fornite per aiutare a caratterizzare il sistema.
 
 I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 
-* `cq.livesyncconfig.found`: rilevamento di un nodo `/jcr:content/cq:LiveSyncConfig` nel contenuto aggiunto a AEM, che è un’indicazione dell’utilizzo del gestore multisito.
+* `cq.livesyncconfig.found`: rilevamento di un `/jcr:content/cq:LiveSyncConfig` nodo nel contenuto aggiunto all’AEM, che è un’indicazione dell’utilizzo del gestore multisito.
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
@@ -38,4 +38,4 @@ I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 >abstract="Si consiglia di esaminare tutte le configurazioni e le azioni di rollout MSM personalizzate e di assicurarsi che funzionino su AEM as a Cloud Service. Contatta il supporto Adobe per assistenza e chiarimenti"
 >additional-url="https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
 
-* Contatta il [Team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o risolvere dubbi.
+* Contatta il [Team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per fugare i dubbi.

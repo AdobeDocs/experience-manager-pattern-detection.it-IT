@@ -1,11 +1,11 @@
 ---
 title: MI
-description: Pagina della guida del codice di Pattern Detector
+description: Pagina della guida del codice di Pattern Detector.
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
-source-git-commit: efb06dc7e00f91d4c080553df3153deb90b093f2
-workflow-type: ht
-source-wordcount: '210'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 54%
 
 ---
 
@@ -20,7 +20,7 @@ Problema di configurazione errata
 >title="Problema di configurazione errata"
 >abstract="MI (Misconfiguration Issue, Problema di configurazione) individua eventuali problemi di configurazione nell’istanza AEM"
 
-Il problema di configurazione errata `MI` identifica i problemi di configurazione nell’istanza di AEM.
+Errore di configurazione MI: identifica i problemi di configurazione nell’istanza AEM.
 
 I sottotipi vengono utilizzati per identificare i diversi tipi di informazioni, ad esempio:
 
@@ -40,14 +40,14 @@ I sottotipi vengono utilizzati per identificare i diversi tipi di informazioni, 
 >id="aemcloud_bpa_mi_guidance"
 >title="Guida all’implementazione"
 >abstract="Contatta l’Assistenza clienti per ricevere aiuto."
->additional-url="https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html?lang=it" text="Supporto Experience Cloud"
 
 * `sling.job.max.parallel`
-   * È consigliabile impostare il valore su 0,5 per utilizzare la metà dei processori disponibili.
+   * L&#39;Adobe consiglia di impostare il valore su 0,5 per sfruttare la metà dei processori disponibili.
 * `missing.maintenance.configuration`
-   * Pulizia revisioni: consulta [Pulizia revisioni](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=it). La parte importante riguardante la configurazione è questa: [Pulizia revisioni: configurazione della coda e compattazione completa](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=it#how-to-configure-full-and-tail-compaction).
-   * Pulizia dati binari di Lucene: consulta [Dashboard operazioni - Pulizia dati binari di Lucene](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-dashboard.html?lang=it#lucene-binaries-cleanup).
-   * Archivio dati raccolta oggetti inattivi: consulta [Archivio dati raccolta oggetti inattivi](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/data-store-garbage-collection.html?lang=it).
-   * Eliminazione del flusso di lavoro: consulta [Eliminazione regolare delle istanze del flusso di lavoro](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/workflows-administering.html?lang=it#regular-purging-of-workflow-instances).
-   * Attività di manutenzione del registro di controllo: consulta [Manutenzione del registro di controllo](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-audit-log.html?lang=it).
-* Per eventuali domande o dubbi, contatta il [team di assistenza clienti di Experience Manager](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
+   * Pulizia revisioni: vedere [Pulizia revisioni](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup). La parte importante riguardante la configurazione è questa: [Pulizia revisioni: configurazione della coda e compattazione completa](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup).
+   * Pulizia binary di Lucene: vedi [Dashboard operazioni - Pulizia binary di Lucene](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/operations-dashboard#lucene-binaries-cleanup).
+   * Archivio dati Garbage Collection: vedi [Raccolta oggetti inattivi dell’archivio dati](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/data-store-garbage-collection).
+   * Svuotamento flusso di lavoro: vedere [Rimozione regolare delle istanze del flusso di lavoro](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/workflows-administering#regular-purging-of-workflow-instances).
+   * Attività di manutenzione del registro di controllo: vedi [Manutenzione del registro di controllo](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/operations-audit-log).
+* Contatta il [Experience Manager team di assistenza clienti](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per risolvere dubbi.
