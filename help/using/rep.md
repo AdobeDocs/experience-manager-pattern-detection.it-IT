@@ -2,10 +2,10 @@
 title: REP
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: e788deba-a301-404f-8e90-51f721409e69
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 95%
+source-wordcount: '415'
+ht-degree: 74%
 
 ---
 
@@ -18,11 +18,11 @@ Agente di replica
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_rep_overview"
 >title="Agente di replica"
->abstract="REP identifica gli agenti di replica abilitati. Questi vengono segnalati a causa di potenziali problemi che devono essere risolti durante l’aggiornamento ad AEM as a Cloud Service. AEM as a Cloud Service utilizza la Distribuzione dei contenuti Sling per distribuire i contenuti dagli ambienti di authoring a quelli di pubblicazione. Questa operazione viene eseguita al di fuori del runtime AEM utilizzando il servizio pipeline di Adobe I/O. Viene configurato automaticamente nell’ambiente con provisioning AEM as a Cloud Service."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=it#replication-agents" text="Modifiche importanti in AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=it#no-reverse-replication-agents" text="Linee guida per lo sviluppo"
+>abstract="REP identifica gli agenti di replica abilitati. Questi vengono segnalati a causa di potenziali problemi che devono essere risolti durante l’aggiornamento ad AEM as a Cloud Service. AEM as a Cloud Service utilizza la Distribuzione dei contenuti Sling per distribuire i contenuti dagli ambienti di authoring a quelli di pubblicazione. Questa operazione viene eseguita al di fuori del runtime AEM utilizzando il servizio pipeline di Adobe I/O Runtime su Adobe Developer. Viene configurato automaticamente nell’ambiente con provisioning as a Cloud Service per AEM."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents" text="Modifiche importanti in AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents" text="Linee guida per lo sviluppo"
 
-`REP` identifica gli agenti di replica abilitati. Questi vengono segnalati a causa di potenziali problemi che devono essere risolti durante l’aggiornamento ad AEM as a Cloud Service.
+REP identifica gli agenti di replica abilitati. Questi vengono segnalati a causa di potenziali problemi che devono essere risolti durante l’aggiornamento ad AEM as a Cloud Service.
 
 I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 
@@ -31,25 +31,25 @@ I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 * `standard.replication.agent.modification`: identifica gli agenti di replica standard abilitati che sono stati modificati.
 * `custom.replication.agent.detection`: identifica gli agenti di replica personalizzati abilitati.
 
-AEM as a Cloud Service utilizza la [Distribuzione dei contenuti Sling](https://sling.apache.org/documentation/bundles/content-distribution.html) per distribuire i contenuti dagli ambienti di authoring a quelli di pubblicazione. Questa operazione viene eseguita al di fuori del runtime AEM utilizzando il servizio pipeline di Adobe I/O. Viene configurato automaticamente nell’ambiente con provisioning AEM as a Cloud Service.
+AEM as a Cloud Service utilizza la [Distribuzione dei contenuti Sling](https://sling.apache.org/documentation/bundles/content-distribution.html) per distribuire i contenuti dagli ambienti di authoring a quelli di pubblicazione. Questa operazione viene eseguita al di fuori del runtime AEM utilizzando il servizio pipeline di Adobe I/O Runtime su Adobe Developer. Viene configurato automaticamente nell’ambiente con provisioning as a Cloud Service per AEM.
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
 * La configurazione della replica è cambiata con AEM as a Cloud Service. Tutti gli agenti di replica correnti devono essere verificati per vedere quali sono sostituiti dalla funzionalità standard, quali configurazioni devono essere spostate nel codice e quali non sono supportate.
 * Qualsiasi utilizzo degli agenti di replica nel codice personalizzato o nei flussi di lavoro deve essere rivisto durante l’aggiornamento ad AEM as a Cloud Service.
 * La replica inversa non è inizialmente supportata in AEM as a Cloud Service.
-* Non è necessario configurare un agente di scaricamento del dispatcher separato. Viene configurato automaticamente nell’ambiente AEM as a Cloud Service.
+* Non è necessario configurare un agente di svuotamento del Dispatcher separato. Viene configurato automaticamente nell’ambiente AEM as a Cloud Service.
 
 ## Soluzioni possibili {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_rep_guidance"
 >title="Guida all’implementazione"
->abstract="La best practice prevede di rivedere, rieseguire il factoring e ottimizzare le funzionalità personalizzate direttamente dipendenti dagli agenti di replica e renderle compatibili con AEM as a Cloud Service. Per assistenza e chiarimenti, contatta il supporto Adobe"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=it#replication" text="Replica in AEM as a Cloud Service"
+>abstract="La best practice prevede di rivedere, rieseguire il factoring e ottimizzare le funzionalità personalizzate direttamente dipendenti dagli agenti di replica e renderle compatibili con AEM as a Cloud Service. Per assistenza o chiarimenti, contatta il supporto Adobe."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#replication" text="Replica in AEM as a Cloud Service"
 >additional-url="https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
 
-* Consulta le [Linee guida per lo sviluppo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=it#no-reverse-replication-agents) di AEM as a Cloud Service e le note sulla versione degli [agenti di replica](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=it#replication-agents).
+* Consulta le [Linee guida per lo sviluppo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents) di AEM as a Cloud Service e le note sulla versione degli [agenti di replica](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents).
 * Rivedi, riesegui il factoring e ottimizza le funzionalità direttamente dipendenti dagli agenti di replica per eseguire attività aziendali.
-* Scopri come la [replica](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=it#replication) è interessata dalla distribuzione in AEM as a Cloud Service.
+* Scopri come la [replica](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#replication) è interessata dalla distribuzione in AEM as a Cloud Service.
 * Contatta il [Team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per fugare i dubbi.

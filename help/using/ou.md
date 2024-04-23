@@ -2,10 +2,10 @@
 title: OU
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: 6ec96fab-dd6e-46af-864f-05dad387cbb6
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 93%
+source-wordcount: '267'
+ht-degree: 91%
 
 ---
 
@@ -35,7 +35,7 @@ Poiché le versioni precedenti non sono installate per impostazione predefinita,
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ou_guidance"
 >title="Guida all’implementazione"
->abstract="È consigliabile rivedere e adattare il codice del cliente in modo da utilizzare la versione più recente dei componenti o delle API di AEM. Per assistenza e chiarimenti, contatta il supporto Adobe."
+>abstract="È consigliabile rivedere e adattare il codice del cliente in modo da utilizzare la versione più recente dei componenti o delle API di AEM. Per assistenza o chiarimenti, contatta il supporto Adobe."
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="API SDK di Adobe Experience Manager"
 >additional-url="https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
 

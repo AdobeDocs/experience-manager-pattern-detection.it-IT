@@ -2,10 +2,10 @@
 title: FORM
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 99%
+source-wordcount: '981'
+ht-degree: 98%
 
 ---
 
@@ -67,8 +67,8 @@ Risolvi i seguenti problemi, prima di eseguire la migrazione a [!DNL Adobe Exper
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_guidance"
 >title="Guida all’implementazione"
->abstract="Le informazioni esposte tramite il codice FORMS possono fornire indicazioni sulle sostituzioni e altre azioni necessarie per rendere alcune funzioni e API compatibili con Cloud Service. Contatta il supporto Adobe per assistenza e chiarimenti"
->additional-url="https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
+>abstract="Le informazioni esposte tramite il codice FORMS possono fornire indicazioni sulle sostituzioni e altre azioni necessarie per rendere alcune funzioni e API compatibili con Cloud Service. Per assistenza o chiarimenti, contatta il supporto Adobe."
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html?lang=it" text="Supporto Experience Cloud"
 
 * Utilizza l’utilità di migrazione per convertire tutti gli script di regole nel tuo ambiente in funzioni riutilizzabili. È possibile sfruttare le funzioni riutilizzabili con l’editor di regole visive per continuare a ottenere gli stessi risultati degli script di regole. (CODE_EDITOR)
 

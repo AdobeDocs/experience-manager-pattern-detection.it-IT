@@ -2,10 +2,10 @@
 title: NCC
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 91%
+source-wordcount: '194'
+ht-degree: 65%
 
 ---
 
@@ -19,10 +19,10 @@ Modifiche non compatibili
 >id="aemcloud_bpa_ncc_overview"
 >title="Modifiche non compatibili"
 >abstract="NCC identifica la situazione in cui alcuni nodi o bundle JCR vengono modificati in modo non compatibile. Il cliente potrebbe non essere a conoscenza di questa modifica prima di un aggiornamento."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=it" text="Modifiche importanti in AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=it" text="Note sulla versione per AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Modifiche importanti in AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Note sulla versione per AEM as a Cloud Service"
 
-`NCC` identifica la situazione in cui alcuni nodi o bundle JCR vengono modificati in modo non compatibile. Il cliente potrebbe non essere a conoscenza di questa modifica prima di un aggiornamento.
+NCC identifica la situazione in cui alcuni nodi o bundle JCR vengono modificati in modo non compatibile. Il cliente potrebbe non essere a conoscenza di questa modifica prima di un aggiornamento.
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
@@ -34,8 +34,8 @@ Modifiche non compatibili
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ncc_guidance"
 >title="Guida all’implementazione"
->abstract="Si consiglia di rivedere il codice personalizzato e assicurarsi che solo i componenti Sling compatibili siano sovrapposti o di riferimento. Contatta il supporto Adobe per assistenza e chiarimenti"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html?lang=it#platform" text="Sovrapposizioni"
+>abstract="Si consiglia di rivedere il codice personalizzato e assicurarsi che solo i componenti Sling compatibili siano sovrapposti o di riferimento. Per assistenza o chiarimenti, contatta il supporto Adobe."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/overlays#platform" text="Sovrapposizioni"
 >additional-url="https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
 
 * Sovrapponi o fai riferimento solo ai componenti Sling compatibili.

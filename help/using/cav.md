@@ -2,10 +2,10 @@
 title: CAV
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 47%
+source-wordcount: '318'
+ht-degree: 45%
 
 ---
 
@@ -37,7 +37,7 @@ Per rendere più sicuro e facile per i clienti capire quali aree di `/libs` sono
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_guidance"
 >title="Guida all’implementazione"
->abstract="È necessario rivedere i pattern identificati con CAS in cui esistono diverse violazioni dell’area di contenuto. È necessario evitare le aree di classificazione dei contenuti finale e interna. Per assistenza e chiarimenti, contatta il supporto Adobe."
+>abstract="È necessario rivedere i pattern identificati con CAS in cui esistono diverse violazioni dell’area di contenuto. È necessario evitare le aree di classificazione dei contenuti finale e interna. Per assistenza o chiarimenti, contatta il supporto Adobe."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="Aggiornamenti sostenibili"
 >additional-url="https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
 

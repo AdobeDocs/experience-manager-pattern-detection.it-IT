@@ -2,10 +2,10 @@
 title: IOI
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 92%
+source-wordcount: '221'
+ht-degree: 89%
 
 ---
 
@@ -34,8 +34,8 @@ Alcuni di questi sono utilizzati da `com.adobe.granite.repository`, che imposta 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_guidance"
 >title="Guida all’implementazione"
->abstract="I clienti devono rivedere il proprio codice personalizzato per individuare l’utilizzo di tali API ed eseguirne il refactoring per renderle compatibili con AEM as a Cloud Service. Contatta il supporto Adobe per assistenza e chiarimenti"
->additional-url="https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
+>abstract="I clienti devono rivedere il proprio codice personalizzato per individuare l’utilizzo di tali API ed eseguirne il refactoring per renderle compatibili con AEM as a Cloud Service. Per assistenza o chiarimenti, contatta il supporto Adobe."
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html?lang=it" text="Supporto Experience Cloud"
 
 * Utilizza l’API per risorse Sling (o l’API JCR) invece di un accesso di basso livello.
 * Evita le dipendenze da pacchetti interni che non fanno parte di alcuna API o SPI pubblica.
