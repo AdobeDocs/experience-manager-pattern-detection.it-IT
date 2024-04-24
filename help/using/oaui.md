@@ -2,9 +2,9 @@
 title: OAUI
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '228'
 ht-degree: 44%
 
 ---
@@ -21,7 +21,7 @@ Istanza utenti OAuth
 >abstract="Il codice OAUI identifica il pattern in cui è presente almeno un utente configurato relativo a OAuth che richiede la migrazione corretta. OAuth è configurato per gli utenti quando c’è un sottonodo chiamato oauth direttamente sotto un nodo rep:AuthorizableId nella forma di /home/user-path/user-node/oauth"
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - Note sulla versione"
 
-OAUI identifica il pattern in cui è presente almeno un utente configurato relativo a OAuth che richiede la migrazione corretta.
+`OAUI`  Identifica il pattern in cui è presente almeno un utente configurato relativo a OAuth che richiede la migrazione corretta.
 
 OAuth è configurato per gli utenti quando è presente un sottonodo denominato `oauth` direttamente sotto il nodo `rep:AuthorizableId` sotto forma di `/home/user-path/user-node/oauth`.
 

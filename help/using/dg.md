@@ -2,9 +2,9 @@
 title: DG
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '596'
 ht-degree: 76%
 
 ---
@@ -23,7 +23,7 @@ Developer Guidelines (Linee guida per gli sviluppatori)
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Linee guida per lo sviluppo in AEM as a Cloud Service"
 
 
-La DG ha individuato deviazioni da determinati orientamenti di sviluppo per [AEM 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) e [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). Seguendo le best practice è possibile migliorare la manutenzione e le prestazioni del sistema. Queste deviazioni potrebbero non essere un problema in altri contesti applicativi, incluse versioni precedenti di AEM; tuttavia possono causare problemi se vengono utilizzate con AEM as a Cloud Service.
+`DG`  Identifica deviazioni dalle linee guida di sviluppo selezionate per [AEM 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) e [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). Seguendo le best practice è possibile migliorare la manutenzione e le prestazioni del sistema. Queste deviazioni potrebbero non essere un problema in altri contesti applicativi, incluse versioni precedenti di AEM; tuttavia possono causare problemi se vengono utilizzate con AEM as a Cloud Service.
 
 I sottotipi vengono utilizzati per identificare diversi tipi di violazioni rilevate:
 

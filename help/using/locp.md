@@ -2,9 +2,9 @@
 title: LOCP
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '169'
 ht-degree: 57%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 57%
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="Aggiornamenti sostenibili"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling Resource Merger"
 
-LOCP identifica il rilevamento di un pacchetto personalizzato che fornisce contenuti a `/libs`, che è un anti-pattern (tranne nel caso di ACL).
+`LOCP`  Identifica il rilevamento di un pacchetto personalizzato che fornisce contenuti a `/libs`, che è un anti-pattern (tranne nel caso di ACL).
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 

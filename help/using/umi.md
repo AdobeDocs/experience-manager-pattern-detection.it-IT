@@ -2,9 +2,9 @@
 title: UMI
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '351'
 ht-degree: 41%
 
 ---
@@ -22,7 +22,7 @@ Problema di configurazione errata dell’aggiornamento
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Modifiche importanti in AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - Note sulla versione"
 
-UMI identifica le modifiche ad alcune configurazioni OSGi che causano problemi durante l’aggiornamento, come un aggiornamento non riuscito o funzionalità ridotte.
+`UMI`  Identifica le modifiche ad alcune configurazioni OSGi che causano problemi durante l’aggiornamento, come un aggiornamento non riuscito o funzionalità ridotte.
 
 Le seguenti configurazioni vengono verificate per la modifica:
 

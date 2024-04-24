@@ -2,9 +2,9 @@
 title: MSM
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '145'
 ht-degree: 51%
 
 ---
@@ -21,7 +21,7 @@ Gestione multisito
 >abstract="MSM identifica informazioni generali sulla funzione di gestore multisito AEM. Queste informazioni sono fornite per aiutare a caratterizzare il sistema."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Modifiche importanti in AEM as a Cloud Service"
 
-MSM identifica informazioni generali sulla funzione di gestore multisito AEM. Queste informazioni sono fornite per aiutare a caratterizzare il sistema.
+`MSM`  Identifica informazioni generali sulla funzione di gestore multisito AEM. Queste informazioni sono fornite per aiutare a caratterizzare il sistema.
 
 I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 

@@ -2,10 +2,10 @@
 title: ACV
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 71%
+source-wordcount: '478'
+ht-degree: 67%
 
 ---
 
@@ -22,7 +22,7 @@ Assets Content Validator
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview" text="Modifiche di rilievo apportate a Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service: note sulla versione"
 
-ACV Assets Content Validator identifica i nodi obbligatori mancanti ed eventuali violazioni nel contenuto delle risorse. Questo potrebbe causare errori in alcune funzionalità di Assets in Experience Manager as a Cloud Service.
+`ACV` (Convalida del contenuto delle risorse) Identifica i nodi obbligatori mancanti e le violazioni nel contenuto delle risorse. Questo potrebbe causare errori in alcune funzionalità di Assets in Experience Manager as a Cloud Service.
 
 I sottotipi vengono utilizzati per identificare i diversi tipi di informazioni, ad esempio:
 

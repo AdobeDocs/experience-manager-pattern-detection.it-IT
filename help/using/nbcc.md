@@ -2,10 +2,10 @@
 title: NBCC
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: fa6bdd3c-4deb-41ec-878d-4ea5dc1ddf60
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 63%
+source-wordcount: '203'
+ht-degree: 54%
 
 ---
 
@@ -22,7 +22,7 @@ OBSOLETO: Non-Backwards Compatible Changes (modifiche non compatibili con versio
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Modifiche importanti in AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Note sulla versione per AEM as a Cloud Service"
 
-NBCC identifica la situazione in cui alcuni nodi o bundle JCR vengono modificati in modo non compatibile. Il cliente potrebbe non essere a conoscenza di questa modifica prima di un aggiornamento.
+`NBCC`  Identifica la situazione in cui alcuni nodi o bundle JCR vengono modificati in modo non compatibile. Il cliente potrebbe non essere a conoscenza di questa modifica prima di un aggiornamento.
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 

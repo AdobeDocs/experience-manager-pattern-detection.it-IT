@@ -2,10 +2,10 @@
 title: URS
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 55%
+source-wordcount: '377'
+ht-degree: 53%
 
 ---
 
@@ -21,7 +21,7 @@ Struttura dell’archivio non supportata
 
 ## Sfondo {#background}
 
-URS identifica casi di struttura dell’archivio non supportata e caratteristiche dei nodi. A partire dalla versione AEM 6.4 sono state fornite linee guida per la ristrutturazione del contenuto dell’archivio. Delineando chiaramente le gerarchie per codice prodotto AEM e codice del cliente ed evitando conflitti tra di loro, il contenuto viene ristrutturato da `/etc` ad altre cartelle nell’archivio, in conformità alle seguenti regole di alto livello:
+`URS`  Identifica casi di struttura dell’archivio non supportata e caratteristiche dei nodi. A partire dalla versione AEM 6.4 sono state fornite linee guida per la ristrutturazione del contenuto dell’archivio. Delineando chiaramente le gerarchie per codice prodotto AEM e codice del cliente ed evitando conflitti tra di loro, il contenuto viene ristrutturato da `/etc` ad altre cartelle nell’archivio, in conformità alle seguenti regole di alto livello:
 
 * Il codice del prodotto AEM è sempre inserito in `/libs`, che non deve essere sovrascritto dal codice personalizzato.
 * Il codice personalizzato deve essere inserito in `/apps`, `/content`, e `/conf`.

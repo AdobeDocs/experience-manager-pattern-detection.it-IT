@@ -2,10 +2,10 @@
 title: ECU
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 49%
+source-wordcount: '232'
+ht-degree: 50%
 
 ---
 
@@ -15,7 +15,7 @@ OBSOLETO: Utilizzo di contenuti estranei (sostituito da CAV, Violazione dell’a
 
 ## Sfondo {#background}
 
-ECU identifica il pattern in cui diverse aree di contenuto vengono utilizzate in modo da violare le regole di classificazione del contenuto.
+`ECU`  Identifica il pattern in cui diverse aree di contenuto vengono utilizzate in modo da violare le regole di classificazione del contenuto.
 
 L’elaborazione delle richieste Sling definisce il modo in cui il contenuto di una risorsa, `sling:resourceType` in particolare, viene utilizzato per determinare lo script utilizzato per il rendering del contenuto. (Consulta [Individuazione dello script](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script) per ulteriori informazioni). Sling fornisce anche tecniche per accedere e unire le risorse tramite “sovrapposizioni” e “sovrascritture”. Sono descritti come parte di [Sling Resource Merger](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) e [Sovrapposizioni](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/overlays).
 

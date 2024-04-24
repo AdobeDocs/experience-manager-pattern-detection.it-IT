@@ -2,9 +2,9 @@
 title: PCX
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '198'
 ht-degree: 54%
 
 ---
@@ -22,7 +22,7 @@ Complessità della pagina
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Modifiche importanti in AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - Note sulla versione"
 
-PCX identifica le pagine che contengono molti nodi nella loro struttura.
+`PCX`  Identifica le pagine che contengono molti nodi nella struttura.
 
 I sottotipi vengono utilizzati per identificare i diversi tipi di informazioni:
 

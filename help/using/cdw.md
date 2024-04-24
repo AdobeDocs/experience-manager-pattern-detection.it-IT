@@ -2,10 +2,10 @@
 title: CDW
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '142'
-ht-degree: 87%
+ht-degree: 80%
 
 ---
 
@@ -20,7 +20,7 @@ Custom Dialog Widget (CDW, widget per finestre di dialogo personalizzati)
 >title="Custom Dialog Widget (CDW, widget per finestre di dialogo personalizzati)"
 >abstract="CDW identifica i widget per finestre di dialogo personalizzati che devono essere aggiornati per renderli compatibili con AEM as a Cloud Service."
 
-I widget per finestre di dialogo personalizzati `CDW` identificano i widget per finestre di dialogo classici personalizzati. Questi devono essere aggiornati per renderli compatibili con AEM as a Cloud Service.
+`CDW`  (Widget per finestre di dialogo personalizzati) Identifica i widget per finestre di dialogo classici personalizzati. Questi devono essere aggiornati per renderli compatibili con AEM as a Cloud Service.
 
 I sottotipi vengono utilizzati per identificare le informazioni, ad esempio:
 
