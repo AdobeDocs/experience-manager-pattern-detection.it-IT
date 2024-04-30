@@ -1,11 +1,11 @@
 ---
 title: ACV
-description: Pagina della guida del codice di Pattern Detector.
+description: Pagina della guida del codice di Pattern Detector
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 67%
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,7 @@ Assets Content Validator
 >id="aemcloud_bpa_acv_overview"
 >title="Assets Content Validator"
 >abstract="ACV identifica i nodi obbligatori mancanti nel contenuto delle risorse."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview" text="Modifiche di rilievo apportate a Experience Manager as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/overview" text="Modifiche di rilievo apportate a Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service: note sulla versione"
 
 `ACV` (Convalida del contenuto delle risorse) Identifica i nodi obbligatori mancanti e le violazioni nel contenuto delle risorse. Questo potrebbe causare errori in alcune funzionalità di Assets in Experience Manager as a Cloud Service.
@@ -47,12 +47,12 @@ I sottotipi vengono utilizzati per identificare i diversi tipi di informazioni, 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_acv_guidance"
 >title="Guida all’implementazione"
->abstract="L’Adobe consiglia di rivedere la struttura del contenuto per evitare flussi di lavoro interrotti che dipendono da proprietà ereditate. Contatta l’Assistenza clienti per ricevere aiuto."
+>abstract="Adobe consiglia di rivedere la struttura del contenuto per evitare flussi di lavoro interrotti che dipendono da proprietà ereditate. Contatta l’Assistenza clienti per ricevere aiuto."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html?lang=it" text="Supporto Experience Cloud"
 
 * Analizza una cartella se presenta un nodo secondario mancante. Crea manualmente i nodi se il numero di cartelle è gestibile, altrimenti utilizza uno script.
 * Se ci sono risorse in cui manca la rappresentazione originale, ricaricale o eliminale prima di eseguire la migrazione.
 * Non è necessaria alcuna azione in caso di rappresentazioni originali mancanti per risorse secondarie.
 * In sono presenti nodi in conflitto che devono essere risolti o eliminati prima di migrare all’AEM as a Cloud Service.
-* Contatta l’Assistenza clienti Adobe se intendi elaborare molti file PSD o PSB di grandi dimensioni. L&#39;Experience Manager non può elaborare file PSB ad alta risoluzione con una risoluzione superiore a 30000 x 23000 pixel. Consulta [documentazione](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick).
-* Contatta il [Experience Manager team di assistenza clienti](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per risolvere dubbi.
+* Contatta l’Assistenza clienti Adobe se intendi elaborare molti file PSD o PSB di grandi dimensioni. L&#39;Experience Manager non può elaborare file PSB ad alta risoluzione con una risoluzione superiore a 30000 x 23000 pixel. Consulta la [documentazione](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick).
+* Contatta il [team di assistenza clienti di Experience Manager](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per risolvere dubbi.

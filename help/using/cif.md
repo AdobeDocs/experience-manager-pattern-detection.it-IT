@@ -1,11 +1,11 @@
 ---
 title: CIF
-description: Pagina della guida del codice di Pattern Detector.
+description: Pagina della guida del codice di Pattern Detector
 exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 52%
+ht-degree: 66%
 
 ---
 
@@ -13,13 +13,13 @@ ht-degree: 52%
 
 Commerce Integration Framework Classic
 
-## Sfondo {#background}
+## Informazioni di base {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cif_overview"
 >title="Commerce Integration Framework Classic"
->abstract="CIF identifica la versione classica dell’utilizzo di Commerce integration framework che è incompatibile con AEM as a Cloud Service."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/introduction" text=" Content and Commerce"
+>abstract="CIF identifica l’utilizzo della versione classica di Commerce Integration Framework, non compatibile con AEM as a Cloud Service."
+>additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/content-and-commerce/introduction" text=" Content and Commerce"
 
 `CIF`  Identifica la versione classica dell’utilizzo di Commerce integration framework che è incompatibile con AEM as a Cloud Service. Il messaggio per ogni `CIF` la ricerca identifica l’utilizzo e fornisce informazioni aggiuntive.
 
@@ -34,7 +34,7 @@ I sottotipi vengono utilizzati per identificare i diversi tipi di informazioni:
 >id="aemcloud_bpa_cif_guidance"
 >title="Guida all’implementazione"
 >abstract="Si consiglia di esaminare ogni utilizzo della versione classic di Commerce Integration Framework."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/changes" text="Modifiche di rilievo apportate a CIF"
+>additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/content-and-commerce/changes" text="Modifiche di rilievo apportate a CIF"
 
 * La versione classic di Commerce Integration Framework non è più supportata in AEM as a Cloud Service. Bloccherebbe l’aggiornamento ad AEM as a Cloud Service.
 
@@ -43,8 +43,8 @@ I sottotipi vengono utilizzati per identificare i diversi tipi di informazioni:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cif_tools"
 >title="Strumenti e risorse"
->abstract="Questa guida ti aiuta a identificare le aree da aggiornare per la migrazione di Experience Manager Cloud Service."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/migration" text="Guida alla migrazione per CIF"
+>abstract="Questa guida aiuta a identificare le aree da aggiornare per la migrazione di Experience Manager Cloud Service."
+>additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/content-and-commerce/migration" text="Guida alla migrazione per CIF"
 
 * Ad Experience Manager, as a Cloud Service, il componente aggiuntivo CIF è l’unica soluzione di integrazione supportata per le soluzioni commerce di Adobe Commerce e di terze parti. Il componente aggiuntivo CIF viene distribuito automaticamente ai clienti con Experience Manager as a Cloud Service, non è necessaria alcuna distribuzione manuale. Consulta [Guida introduttiva di AEM Commerce as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/storefront/getting-started).
 * Per supportare i progetti che utilizzano l’CIF, Adobe fornisce [Componenti core dell’CIF dell’AEM](https://github.com/adobe/aem-core-cif-components).

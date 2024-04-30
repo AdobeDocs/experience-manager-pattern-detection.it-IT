@@ -1,11 +1,11 @@
 ---
 title: IOI
-description: Pagina della guida del codice di Pattern Detector.
+description: Pagina della guida del codice di Pattern Detector
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 64%
+ht-degree: 75%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 64%
 
 Internal Oak Import (importazione Oak interna)
 
-## Sfondo {#background}
+## Informazioni di base {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_overview"
@@ -34,9 +34,9 @@ Alcuni di questi sono utilizzati da `com.adobe.granite.repository`, che imposta 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_guidance"
 >title="Guida all’implementazione"
->abstract="I clienti devono rivedere il proprio codice personalizzato per individuare l’utilizzo di tali API ed eseguirne il refactoring per renderle compatibili con AEM as a Cloud Service. Per assistenza o chiarimenti, contatta il supporto Adobe."
+>abstract="I clienti devono rivedere il proprio codice personalizzato per individuare l’utilizzo di tali API ed eseguirne il refactoring per renderle compatibili con AEM as a Cloud Service. Contatta il supporto Adobe per ricevere assistenza o chiarimenti."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html?lang=it" text="Supporto Experience Cloud"
 
 * Utilizza l’API per risorse Sling (o l’API JCR) invece di un accesso di basso livello.
 * Evita le dipendenze da pacchetti interni che non fanno parte di alcuna API o SPI pubblica.
-* Contatta il [Team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per fugare i dubbi.
+* Per eventuali chiarimenti o dubbi, rivolgiti al [team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
