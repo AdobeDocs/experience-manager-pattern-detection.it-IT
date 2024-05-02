@@ -1,10 +1,10 @@
 ---
 title: MODELLO
-description: Modello per la pagina della guida del codice del rilevatore pattern.
+description: Modello per la pagina della guida del codice di Pattern Detector
 source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 38%
+ht-degree: 54%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 38%
 
 Modello
 
-## Sfondo {#background}
+## Informazioni di base {#background}
 
 Fornisci una descrizione di uno o più problemi che questo codice rappresenta.
 Rispondi alla domanda: “Cos’è questo?”
@@ -33,4 +33,4 @@ Rispondi alla domanda: “Cosa posso fare?”
 
 * possibile soluzione n. 1
 * possibile soluzione n. 2
-* Contatta il [Team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per fugare i dubbi.
+* Per eventuali chiarimenti o dubbi, rivolgiti al [team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
