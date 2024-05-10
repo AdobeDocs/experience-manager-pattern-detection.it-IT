@@ -1,11 +1,11 @@
 ---
 title: LUI
-description: Pagina della guida del codice di Pattern Detector
+description: Pagina della guida del codice di Pattern Detector.
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '703'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ Interfaccia utente precedente
 >id="aemcloud_bpa_lui_overview"
 >title="Interfaccia utente precedente"
 >abstract="LUI identifica l’uso di elementi obsoleti dell’interfaccia utente che non sono consigliati o supportati nelle versioni più recenti di AEM e in AEM as a Cloud Service."
->additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Modifiche importanti in AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Modifiche di rilievo in AEM as a Cloud Service"
 
-`LUI`  Identifica l’uso di elementi obsoleti dell’interfaccia utente che non sono consigliati o non sono supportati nelle versioni successive dell’AEM e nell’AEM as a Cloud Service.
+`LUI` identifica l’utilizzo di elementi obsoleti dell’interfaccia utente che non sono consigliati o non sono supportati nelle versioni successive di AEM e in AEM as a Cloud Service.
 
 I sottotipi vengono utilizzati per identificare i diversi tipi di elementi dell’interfaccia utente che possono o devono essere aggiornati:
 

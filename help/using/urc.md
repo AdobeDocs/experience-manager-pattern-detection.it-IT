@@ -1,11 +1,11 @@
 ---
 title: URC
-description: Pagina della guida del codice di Pattern Detector
+description: Pagina della guida del codice di Pattern Detector.
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '261'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Configurazione della modalità di esecuzione non supportata
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#custom-runmodes" text="Modalità di esecuzione supportate"
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/deploying/overview#runmodes" text="Modalità di esecuzione"
 
-`URC`  Identifica l’utilizzo di configurazioni basate su un nome di modalità di esecuzione non supportato in AEM as a Cloud Service.
+`URC` identifica l’utilizzo di configurazioni basate su un nome della modalità di esecuzione non supportata in AEM as a Cloud Service.
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 

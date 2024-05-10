@@ -1,11 +1,11 @@
 ---
 title: CCOM
-description: Pagina della guida del codice di Pattern Detector
+description: Pagina della guida del codice di Pattern Detector.
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Componente personalizzato
 >title="Componente personalizzato"
 >abstract="CCOM identifica i componenti personalizzati installati in AEM. Queste informazioni sono fornite ai fini della valutazione delle best practice"
 
-`CCOM` Identifica i componenti personalizzati installati sull’AEM. Tali informazioni sono fornite ai fini della valutazione delle best practice.
+`CCOM` identifica i componenti personalizzati installati in AEM. Tali informazioni sono fornite ai fini della valutazione delle best practice.
 
 Questo codice utilizza un sottotipo per identificare la categoria del componente:
 
@@ -31,7 +31,7 @@ Questo codice utilizza un sottotipo per identificare la categoria del componente
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
-* Si consiglia di ridurre al minimo il numero di componenti personalizzati, utilizzare i componenti core e utilizzare i componenti core con il sistema di stili in modo da ridurre il debito tecnico.
+* La best practice prevede di ridurre al minimo il numero di componenti personalizzati, utilizzare i componenti core e usarli con il sistema di stili per ridurre il debito tecnico.
 
 ## Soluzioni possibili {#solutions}
 

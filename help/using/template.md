@@ -1,10 +1,10 @@
 ---
 title: MODELLO
-description: Modello per la pagina della guida del codice di Pattern Detector
+description: Modello per la pagina della guida del codice di Pattern Detector.
 source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
@@ -15,12 +15,12 @@ Modello
 
 ## Informazioni di base {#background}
 
-Fornisci una descrizione di uno o più problemi che questo codice rappresenta.
+Fornisci una descrizione di uno o più problemi rappresentati da questo codice.
 Rispondi alla domanda: “Cos’è questo?”
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
-Fornisci una descrizione delle potenziali implicazioni e dei rischi che possono sorgere se non si fa nulla al riguardo.
+Fornisci una descrizione delle potenziali implicazioni e dei rischi possono sorgere se non si farà nulla al riguardo.
 Rispondi alla domanda: “Perché dovrei preoccuparmi?”
 
 * implicazione o rischio n. 1
@@ -28,7 +28,7 @@ Rispondi alla domanda: “Perché dovrei preoccuparmi?”
 
 ## Soluzioni possibili {#solutions}
 
-Fornisci una descrizione dei possibili passaggi che attenuano o risolvono il problema. Evita di duplicare le informazioni che possono essere trovate altrove; fai riferimento, se possibile, alla documentazione di Adobi pubblici.
+Fornisci una descrizione dei possibili passaggi che attenuano o risolvono il problema. Evita di duplicare le informazioni che possono essere trovate altrove; fai riferimento, se possibile, alla documentazione di Adobe pubblica.
 Rispondi alla domanda: “Cosa posso fare?”
 
 * possibile soluzione n. 1

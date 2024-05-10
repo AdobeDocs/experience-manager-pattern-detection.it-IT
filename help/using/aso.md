@@ -1,11 +1,11 @@
 ---
 title: ASO
-description: Pagina della guida del codice di Pattern Detector
+description: Pagina della guida del codice di Pattern Detector.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '473'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ AEM System Overview
 >abstract="Il codice ASO identifica informazioni generali sull’istanza di AEM. Ogni risultato fornisce un valore di un particolare tipo di informazioni di sistema, e può essere utile per la pianificazione della migrazione e le iniziative di refactoring."
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service: note sulla versione"
 
-`ASO` Identifica informazioni generali sull’istanza dell’AEM. Ogni risultato fornisce un valore di un particolare tipo di informazioni di sistema.
+`ASO` identifica informazioni generali sull’istanza di AEM. Ogni risultato fornisce un valore di un particolare tipo di informazioni di sistema.
 
 I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 
 * `aem.version`: versione di AEM.
-* `aem.product`: rilevamento dell’uso di un prodotto AEM (Commerce, Forms e così via).
-* `node.count`: il conteggio approssimativo dei nodi di un determinato tipo (Pagina, Risorsa e così via) e il totale complessivo dei nodi.
+* `aem.product`: rilevamento dell’uso di un prodotto AEM (Commerce, Forms, ecc.).
+* `node.count`: il conteggio approssimativo dei nodi di un determinato tipo (Pagina, Risorsa, ecc.) e il totale complessivo dei nodi.
 * `node.store`: tipo di implementazione dell’archivio dei nodi (SegmentNodeStore, DocumentNodeStore) e relative dimensioni.
 * `data.store`: tipo di implementazione dell’archivio dei dati (FileDataStore, S3DataStore, AzureDataStore).
 * `maintenance.task`: attività di manutenzione.
@@ -45,7 +45,7 @@ I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
-* La versione AEM, il numero di nodi, l’appartenenza ai gruppi, l’archivio nodi, i tipi di implementazione dell’archivio dati, il numero di tag CQ, il numero di tag avanzati, la versione dei componenti core, il tipo di istanza AEM e il numero di risorse non elaborate vengono forniti a scopo informativo.
+* I seguenti dati sono forniti a scopo informativo: versione di AEM, conteggio nodi, iscrizione al gruppo, archivio nodi, tipi di implementazione dell’archivio dati, conteggio tag CQ e tag avanzati, versione del componente core, tipo di istanza AEM e conteggio risorse non elaborate.
 * Un numero elevato di URL personalizzati (>1000) può comportare un carico notevole per Dispatcher e i server Publish con query costose.
 * L’applicazione personalizzata può basarsi su prodotti o funzionalità non disponibili in AEM as a Cloud Service.
 * L’aggiornamento con funzioni non supportate potrebbe impedire l’aggiornamento o il corretto funzionamento di un’applicazione.
@@ -57,12 +57,12 @@ I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_aso_guidance"
 >title="Guida all’implementazione"
->abstract="Le informazioni mostrate tramite il codice ASO forniscono indicazioni generali per l’ambiente AEM, inclusi versione, componenti aggiuntivi del prodotto e informazioni a livello di sistema. Esaminala per eventuali prodotti o funzionalità non supportati in AEM as a Cloud Service. Contatta il supporto Adobe per ricevere assistenza o chiarimenti."
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html?lang=it" text="Supporto Experience Cloud"
+>abstract="Le informazioni mostrate tramite il codice ASO forniscono indicazioni generali per l’ambiente AEM, inclusi versione, componenti aggiuntivi del prodotto e informazioni a livello di sistema. Esaminala per eventuali prodotti o funzionalità non supportati in AEM as a Cloud Service. Per ricevere assistenza o chiarimenti, contatta il servizio di assistenza Adobe."
+>additional-url="https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
 
-* Gli aggiornamenti AEM con prodotti o funzionalità non supportati non sono consigliati e potrebbero non essere supportati.
-* Le risorse non elaborate devono essere elaborate e `dam:assetState` proprietà sul `jcr:content` Il nodo della risorsa deve essere impostato su &quot;elaborato&quot;. In alternativa, rimuovi queste risorse dal set di migrazione prima di eseguire la migrazione ad AEMaaCS.
+* Gli aggiornamenti di AEM con prodotti o funzionalità non supportati non sono consigliati e potrebbero non essere supportati.
+* Le risorse non elaborate devono essere elaborate e la proprietà `dam:assetState` sul nodo `jcr:content` della risorsa deve essere impostata su “elaborato”. In alternativa, dovresti rimuovere queste risorse dal set di migrazione prima di eseguire la migrazione a AEMaaCS.
 * Gli URL personalizzati possono essere sostituiti con Apache Rewrite.
-* Consulta la [documentazione](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries) per la risoluzione dei problemi relativi a query lente.
-* Consulta la [note sulla versione](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) per ulteriori informazioni sulle ultime modifiche apportate a AEM as a Cloud Service.
+* Consulta la [documentazione](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries) per la risoluzione dei problemi relativi a query lente.
+* Consulta le [note sulla versione](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) per scoprire le ultime modifiche implementate in AEM as a Cloud Service.
 * Contatta il [team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per eventuali dubbi.

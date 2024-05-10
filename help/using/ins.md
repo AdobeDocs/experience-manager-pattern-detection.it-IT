@@ -1,11 +1,11 @@
 ---
 title: INS
-description: Pagina della guida del codice di Pattern Detector
+description: Pagina della guida del codice di Pattern Detector.
 exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '107'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Spazio dei nomi non valido
 >title="Spazio dei nomi non valido"
 >abstract="INS identifica problemi di spazio dei nomi nell’istanza AEM"
 
-`INS`  (Spazio dei nomi non valido) Identifica i problemi di spazio dei nomi nell’istanza AEM.
+`INS` (Spazio dei nomi non valido) identifica i problemi relativi allo spazio dei nomi nell’istanza AEM.
 
 I sottotipi vengono utilizzati per identificare i diversi tipi di informazioni, ad esempio:
 
@@ -28,7 +28,7 @@ I sottotipi vengono utilizzati per identificare i diversi tipi di informazioni, 
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
-* Impossibile replicare il contenuto (su più livelli) o copiarlo (su più livelli) `env`, mediante `/crx/packMgr`o Content Copy).
+* Impossibile replicare il contenuto (su più livelli) o copiarlo (su più ambienti `env` tramite `/crx/packMgr` o Copia del contenuto).
 
 ## Soluzioni possibili {#solutions}
 
@@ -36,7 +36,7 @@ I sottotipi vengono utilizzati per identificare i diversi tipi di informazioni, 
 >id="aemcloud_bpa_ins_guidance"
 >title="Guida all’implementazione"
 >abstract="Contatta l’Assistenza clienti per ricevere aiuto."
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html?lang=it" text="Supporto Experience Cloud"
+>additional-url="https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
 
 * Correggi le definizioni dello spazio dei nomi in base alle [specifiche JCR](https://developer.adobe.com/experience-manager/reference-materials/spec/jcr/1.0/4.5_Namespaces.html?lang=it). Segui i passaggi indicati [qui](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/how-can-i-delete-a-namespace-created-in-crx/td-p/225163)
-* Contatta il [team di assistenza clienti di Experience Manager](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html?lang=it) per ottenere chiarimenti o per risolvere dubbi.
+* Contatta il [team di assistenza clienti di Experience Manager](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per risolvere dubbi.

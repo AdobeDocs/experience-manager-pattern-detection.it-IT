@@ -1,11 +1,11 @@
 ---
 title: PCX
-description: Pagina della guida del codice di Pattern Detector
+description: Pagina della guida del codice di Pattern Detector.
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '198'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ Complessità della pagina
 >id="aemcloud_bpa_pcx_overview"
 >title="Complessità della pagina"
 >abstract="PCX identifica le pagine che contengono un gran numero di nodi nella loro struttura."
->additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Modifiche importanti in AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Modifiche di rilievo in AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service: note sulla versione"
 
-`PCX`  Identifica le pagine che contengono molti nodi nella struttura.
+`PCX` identifica le pagine la cui struttura contiene numerosi nodi.
 
 I sottotipi vengono utilizzati per identificare i diversi tipi di informazioni:
 
@@ -38,8 +38,8 @@ I sottotipi vengono utilizzati per identificare i diversi tipi di informazioni:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_guidance"
 >title="Guida all’implementazione"
->abstract="Si consiglia di rivedere la struttura del contenuto per ridurre la complessità delle pagine, il che contribuirebbe a migliorarne le prestazioni di rendering. Contatta il supporto Adobe per ricevere assistenza o chiarimenti."
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html?lang=it" text="Supporto Experience Cloud"
+>abstract="Si consiglia di rivedere la struttura del contenuto per ridurre la complessità delle pagine, il che contribuirebbe a migliorarne le prestazioni di rendering. Per ricevere assistenza o chiarimenti, contatta il servizio di assistenza Adobe."
+>additional-url="https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
 
 * Riduci il numero totale di nodi all’interno di una pagina eseguendo la seguente azione:
    * Verifica che non siano presenti contenitori non necessari.

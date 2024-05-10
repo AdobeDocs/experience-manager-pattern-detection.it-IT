@@ -1,11 +1,11 @@
 ---
 title: DG
-description: Pagina della guida del codice di Pattern Detector
+description: Pagina della guida del codice di Pattern Detector.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Developer Guidelines (Linee guida per gli sviluppatori)
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Linee guida per lo sviluppo in AEM as a Cloud Service"
 
 
-`DG`  Identifica deviazioni dalle linee guida di sviluppo selezionate per [AEM 6.5](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) e [AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). Seguendo le best practice è possibile migliorare la manutenzione e le prestazioni del sistema. Queste deviazioni potrebbero non essere un problema in altri contesti applicativi, incluse versioni precedenti di AEM; tuttavia possono causare problemi se vengono utilizzate con AEM as a Cloud Service.
+`DG` identifica deviazioni da specifiche linee guida di sviluppo per [AEM 6.5](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) e [AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). Seguendo le best practice è possibile migliorare la manutenzione e le prestazioni del sistema. Queste deviazioni potrebbero non essere un problema in altri contesti applicativi, incluse versioni precedenti di AEM; tuttavia possono causare problemi se vengono utilizzate con AEM as a Cloud Service.
 
 I sottotipi vengono utilizzati per identificare diversi tipi di violazioni rilevate:
 
@@ -45,7 +45,7 @@ I sottotipi vengono utilizzati per identificare diversi tipi di violazioni rilev
 
 * `sling.commons.scheduler`
    * Le applicazioni dipendenti da attività in background che utilizzano [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) potrebbero non funzionare come previsto perché la loro esecuzione non è garantita in AEM as a Cloud Service.
-   * Linee guida per [attività in background e processi con tempi di esecuzione lunghi](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs) suggerisce che il codice eseguito come attività pianificata debba anche presupporre che l&#39;istanza su cui è in esecuzione possa essere disattivata in qualsiasi momento. Pertanto, il codice deve essere resiliente e riutilizzabile.
+   * Secondo le linee guida per [attività in background e processi con tempi di esecuzione lunghi](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs), per il codice eseguito come attività pianificata si dovrebbe presupporre che in qualsiasi momento si potrebbe verificare un’interruzione dell’istanza su cui il codice è in esecuzione. Pertanto, il codice deve essere resiliente e ripristinabile.
 
 * `unsupported.asset.api`
    * Le seguenti API di Asset Manager sono contrassegnate come non supportate in AEM as a Cloud Service.
@@ -76,11 +76,11 @@ I sottotipi vengono utilizzati per identificare diversi tipi di violazioni rilev
 
 * `maintenance.task.configuration`
    * Consulta la documentazione sulle [Attività di manutenzione](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/operations/maintenance) in AEM as a Cloud Service.
-   * Assicurati che la [configurazione delle attività di manutenzione](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#maintenance-tasks-configuration-in-source-control) sia inclusa nel controllo del codice sorgente.
+   * Assicurati che la [configurazione delle attività di manutenzione](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/deploying/overview#maintenance-tasks-configuration-in-source-control) sia inclusa nel controllo del codice sorgente.
 
 * `sling.commons.scheduler`
    * Sostituisci l’uso di [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) con [processi Sling](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing), che dispongono di una garanzia di esecuzione “almeno una volta”.
-   * È necessario evitare processi con tempi di esecuzione lunghi.
+   * I processi di lunga durata dovrebbero essere evitati.
 
 * `unsupported.asset.api`
    * Anziché utilizzare le API non supportate di Asset Manager, consulta [aem-upload](https://github.com/adobe/aem-upload).
@@ -89,5 +89,5 @@ I sottotipi vengono utilizzati per identificare diversi tipi di violazioni rilev
    * Invece di utilizzare il listener di eventi, si consiglia di eseguire il refactoring del meccanismo di gestione degli eventi con [Processi Sling](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) per essere sicuri che il processo venga eseguito.
 
 * `custom.guava.cache`
-   * Le cache, se necessario, devono essere create al di fuori dell’AEM. Potrebbe essere presa in considerazione una soluzione di memorizzazione in cache esterna.
+   * Se necessario, le cache devono essere create al di fuori di AEM. Potrebbe essere utile una soluzione di memorizzazione in cache esterna.
 * Contatta il [team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per eventuali dubbi.

@@ -1,11 +1,11 @@
 ---
 title: INST
-description: Pagina della guida del codice di Pattern Detector
+description: Pagina della guida del codice di Pattern Detector.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Artefatto installato
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Linee guida per lo sviluppo in AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="Linee guida per la creazione di pacchetti in AEM as a Cloud Service"
 
-`INST`  Identifica pacchetti e bundle personalizzati e di terze parti installati in AEM dal cliente. Questi vengono segnalati per aiutare a caratterizzare lo stato del sistema nell’ambito generale di uno sforzo di aggiornamento.
+`INST` identifica pacchetti e bundle personalizzati e di terze parti installati in AEM dal cliente. Questi vengono segnalati per aiutare a caratterizzare lo stato del sistema nell’ambito generale di uno sforzo di aggiornamento.
 
 Quando sono state installate più versioni di un pacchetto, viene segnalata solo la versione più recente.
 
@@ -55,8 +55,8 @@ I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="Progetto WKND precedente"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="Esempio di violazione INST: Github"
 
-* I pacchetti di terze parti devono essere distribuiti in AEM come parte del progetto utilizzando il [processo di distribuzione](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deployment-process) di Cloud Manager.
-* Esamina come [incorporare pacchetti di terze parti](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embedding-3rd-party-packages) nel progetto per AEM as a Cloud Service.
+* I pacchetti di terze parti devono essere distribuiti in AEM come parte del progetto utilizzando il [processo di distribuzione](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deployment-process) di Cloud Manager.
+* Esamina come [incorporare pacchetti di terze parti](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embedding-3rd-party-packages) nel progetto per AEM as a Cloud Service.
 * I pacchetti di terze parti devono rispettare le linee guida di [sviluppo](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines) e [creazione pacchetti](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package) di AEM as a Cloud Service.
 * Rivedi il progetto [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst) e scopri come [le violazioni INST](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst) possono essere corrette e rese compatibili con AEM as a Cloud Service.
 * Contatta il [team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per eventuali dubbi.

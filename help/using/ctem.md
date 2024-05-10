@@ -1,11 +1,11 @@
 ---
 title: CTEM
-description: Pagina della guida del codice di Pattern Detector
+description: Pagina della guida del codice di Pattern Detector.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Custom Template (modello personalizzato)
 >title="Custom Template (modello personalizzato)"
 >abstract="CTEM identifica i componenti personalizzati installati in AEM. Queste informazioni sono fornite ai fini della valutazione delle best practice"
 
-`CTEM`  Identifica i modelli personalizzati installati nell’AEM. Tali informazioni sono fornite ai fini della valutazione delle best practice.
+`CTEM` identifica i modelli personalizzati installati in AEM. Tali informazioni sono fornite ai fini della valutazione delle best practice.
 
-I modelli sono identificati da un valore di tipo primario di `cq:Template`. Con questo codice viene utilizzato un sottotipo per identificare la categoria del modello:
+I modelli sono identificati da un valore di tipo primario `cq:Template`. Con questo codice viene utilizzato un sottotipo per identificare la categoria del modello:
 
 * `custom.editable.template`: il percorso del modello non inizia con “/apps”.
 * `custom.static.template`: il percorso del modello inizia con “/apps”.
@@ -43,10 +43,10 @@ I modelli sono identificati da un valore di tipo primario di `cq:Template`. Con 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_tools"
 >title="Strumenti e risorse"
->abstract="Con l’aiuto della serie di strumenti AEM Modernization Suite, i clienti possono modificare la struttura di una pagina da definizione statica a modello modificabile. L’obiettivo è aiutare i clienti a passare dalle caratteristiche limitate delle funzionalità precedenti a quelle robuste e moderne di AEM. Questi strumenti sono configurabili, estensibili e tengono conto delle configurazioni. Contatta il supporto Adobe per ricevere assistenza o chiarimenti."
+>abstract="Con l’aiuto della serie di strumenti AEM Modernization Suite, i clienti possono modificare la struttura di una pagina da definizione statica a modello modificabile. L’obiettivo è aiutare i clienti a passare dalle caratteristiche limitate delle funzionalità precedenti a quelle robuste e moderne di AEM. Questi strumenti sono configurabili, estensibili e tengono conto delle configurazioni. Per ricevere assistenza o chiarimenti, contatta il servizio di assistenza Adobe."
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/structure/about.html" text="Page Structure Converter"
 >additional-url="https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
 
-* Utilizza il [Strumenti di modernizzazione AEM](https://opensource.adobe.com/aem-modernize-tools/) per migrare i modelli statici in modelli modificabili.
+* Utilizza gli [strumenti di modernizzazione AEM](https://opensource.adobe.com/aem-modernize-tools/) per migrare i modelli statici in modelli modificabili.
 * Per ulteriori informazioni sui modelli modificabili, consulta [Modelli](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/platform/templates/templates).
 * Contatta il [team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per risolvere dubbi.
