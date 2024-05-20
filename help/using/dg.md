@@ -2,10 +2,10 @@
 title: DG
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '596'
-ht-degree: 100%
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+workflow-type: tm+mt
+source-wordcount: '597'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ Developer Guidelines (Linee guida per gli sviluppatori)
 >id="aemcloud_bpa_dg_overview"
 >title="Developer Guidelines (Linee guida per gli sviluppatori)"
 >abstract="Il codice DG individua deviazioni dalle specifiche linee guida di sviluppo per AEM 6.5 e AEM as a Cloud Service. Seguendo le best practice è possibile migliorare la manutenzione e le prestazioni del sistema. Queste deviazioni potrebbero non essere un problema in altri contesti applicativi, incluse versioni precedenti di AEM; tuttavia possono causare problemi se vengono utilizzate con AEM as a Cloud Service."
->additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="Sviluppo AEM: linee guida e best practice"
+>additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="Sviluppo AEM - Linee guida e best practice"
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Linee guida per lo sviluppo in AEM as a Cloud Service"
 
 
