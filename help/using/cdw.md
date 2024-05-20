@@ -3,7 +3,7 @@ title: CDW
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
 source-git-commit: d1c652a8a45a081661ffe4443f85fcc932947541
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 100%
 
