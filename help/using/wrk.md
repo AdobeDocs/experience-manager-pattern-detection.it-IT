@@ -2,10 +2,10 @@
 title: WRK
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 92%
+source-wordcount: '325'
+ht-degree: 56%
 
 ---
 
@@ -18,10 +18,10 @@ Flusso di lavoro
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_overview"
 >title="Flusso di lavoro"
->abstract="Il codice WRK identifica un risultato relativo a un modello di flusso di lavoro o a un modulo di avvio. Questi vengono segnalati perché è necessario eseguire la migrazione dei modelli di flusso di lavoro delle risorse personalizzate durante l’aggiornamento ad AEM as a Cloud Service. Con AEM as a Cloud Service, l’elaborazione delle risorse viene ora eseguita dai microservizi per le risorse."
+>abstract="Il codice WRK identifica un risultato relativo a un modello di flusso di lavoro o a un modulo di avvio. Queste identificazioni vengono segnalate perché è necessario eseguire la migrazione dei modelli di flusso di lavoro delle risorse personalizzate durante l’aggiornamento a AEM as a Cloud Service. Con l’AEM as a Cloud Service, i microservizi per le risorse elaborano le risorse."
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview" text="Microservizi per le risorse"
 
-`WRK` identifica un risultato relativo a un modello di flusso di lavoro o a un modulo di avvio. Questi vengono segnalati perché è necessario eseguire la migrazione dei modelli di flusso di lavoro delle risorse personalizzate durante l’aggiornamento ad AEM as a Cloud Service.
+`WRK` identifica un risultato relativo a un modello di flusso di lavoro o a un modulo di avvio. Queste identificazioni vengono segnalate perché è necessario eseguire la migrazione dei modelli di flusso di lavoro delle risorse personalizzate durante l’aggiornamento a AEM as a Cloud Service.
 
 Viene utilizzato un sottotipo per identificare il tipo di problema del flusso di lavoro attualmente rilevato.
 
@@ -32,10 +32,10 @@ Viene utilizzato un sottotipo per identificare il tipo di problema del flusso di
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_guidance"
 >title="Guida all’implementazione"
->abstract="I flussi di lavoro delle risorse standard sono supportati automaticamente dai relativi microservizi. Pertanto, la best practice prevede la revisione di tutti i modelli di flusso di lavoro delle risorse personalizzati o del modulo di avvio per capire se sono necessari dopo la transizione ad AEM as a Cloud Service. Per poter essere utilizzate con AEM as a Cloud Service, le personalizzazioni dei flussi di lavoro delle risorse devono essere migrate con l’ausilio dell relativo strumento per la migrazione."
+>abstract="I flussi di lavoro delle risorse standard sono supportati automaticamente dai relativi microservizi. Pertanto, è consigliabile rivedere tutti i modelli di flusso di lavoro delle risorse personalizzati o l’utilità di avvio. Durante la revisione, puoi vedere se sono necessari dopo la transizione a AEM as a Cloud Service. Le personalizzazioni ai flussi di lavoro delle risorse richiedono la migrazione per poter funzionare con AEM as a Cloud Service con l’aiuto dello strumento Asset Workflow Migration (Migrazione flussi di lavoro per risorse)"
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/asset-microservices-configure-and-use" text="Guida introduttiva ai microservizi per risorse"
 
-* L’elaborazione delle risorse è tradizionalmente eseguita con i flussi di lavoro delle risorse sull’istanza di authoring AEM. Con AEM as a Cloud Service, l’elaborazione delle risorse viene ora eseguita dai microservizi per le risorse. Per ulteriori informazioni, consulta la [panoramica dei microservizi per le risorse](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview).
+* L’elaborazione delle risorse è tradizionalmente eseguita con i flussi di lavoro delle risorse sull’istanza di authoring AEM. Con l’AEM as a Cloud Service, i microservizi per le risorse elaborano le risorse. Per ulteriori informazioni, consulta la [panoramica dei microservizi per le risorse](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview).
 * I flussi di lavoro delle risorse standard sono supportati automaticamente dai microservizi per le risorse.
 * Le personalizzazioni ai flussi di lavoro delle risorse devono essere migrate per poter funzionare con AEM as a Cloud Service.
 

@@ -2,10 +2,10 @@
 title: DG
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 98%
+source-wordcount: '596'
+ht-degree: 90%
 
 ---
 
@@ -37,7 +37,7 @@ I sottotipi vengono utilizzati per identificare diversi tipi di violazioni rilev
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
 * `java.io.inputstream`
-   * Lo streaming di dati binari con `java.io.InputStream` può sfruttare le risorse di memoria al punto di influire sulle prestazioni. Questo diventa un problema a causa della memoria limitata disponibile nei contenitori utilizzati in AEM as a Cloud Service.
+   * Lo streaming di dati binari con `java.io.InputStream` può sfruttare le risorse di memoria al punto di influire sulle prestazioni. Questo problema è dovuto alla memoria limitata disponibile nei contenitori utilizzati in AEM as a Cloud Service.
 
 * `maintenance.task.configuration`
    * Alcune attività di manutenzione che in precedenza richiedevano una configurazione esplicita vengono ora configurate e gestite automaticamente in AEM as a Cloud Service.
@@ -48,14 +48,14 @@ I sottotipi vengono utilizzati per identificare diversi tipi di violazioni rilev
    * Secondo le linee guida per [attività in background e processi con tempi di esecuzione lunghi](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs), per il codice eseguito come attività pianificata si dovrebbe presupporre che in qualsiasi momento si potrebbe verificare un’interruzione dell’istanza su cui il codice è in esecuzione. Pertanto, il codice deve essere resiliente e ripristinabile.
 
 * `unsupported.asset.api`
-   * Le seguenti API di Asset Manager sono contrassegnate come non supportate in AEM as a Cloud Service.
+   * Le seguenti API di AssetManager sono contrassegnate come non supportate in AEM as a Cloud Service.
       * createAssetForBinary
       * getAssetForBinary
       * removeAssetForBinary
       * createAsset
 
 * `javax.jcr.observation.EventListener`
-   * Le applicazioni dipendenti dal listener di eventi potrebbero non funzionare come previsto perché l’esecuzione non può essere garantita.
+   * Le applicazioni dipendenti dal listener di eventi potrebbero non funzionare come previsto perché l&#39;esecuzione non può essere garantita.
 
 * `custom.guava.cache`
    * L’utilizzo della cache Guava può causare problemi di prestazioni in AEM.
