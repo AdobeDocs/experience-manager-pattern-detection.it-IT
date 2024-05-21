@@ -2,10 +2,10 @@
 title: CCL
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
+source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
+workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 100%
+ht-degree: 69%
 
 ---
 
@@ -20,7 +20,7 @@ Libreria client personalizzata
 >title="Libreria client personalizzata"
 >abstract="CCL identifica le librerie client installate in AEM. Tali informazioni sono fornite ai fini della valutazione delle best practice."
 
-`CCL` identifica le librerie client installate in AEM. Tali informazioni sono fornite ai fini della valutazione delle best practice.
+`CCL` Identifica le librerie client installate in AEM. Tali informazioni sono fornite ai fini della valutazione delle best practice.
 
 Con questo codice viene utilizzato un sottotipo:
 
@@ -28,7 +28,7 @@ Con questo codice viene utilizzato un sottotipo:
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
-* Le librerie client aggiunte a AEM devono essere riviste per garantire che non vi siano duplicazioni e che vengano utilizzate le versioni più recenti.
+* Le librerie client aggiunte all’AEM devono essere riviste per garantire che non vi siano duplicazioni e che vengano utilizzate le versioni più recenti.
 
 ## Soluzioni possibili {#solutions}
 
