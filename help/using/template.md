@@ -1,10 +1,10 @@
 ---
 title: MODELLO
 description: Modello per la pagina della guida del codice di Pattern Detector.
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
-workflow-type: ht
-source-wordcount: '119'
-ht-degree: 100%
+source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
+workflow-type: tm+mt
+source-wordcount: '120'
+ht-degree: 85%
 
 ---
 
@@ -20,7 +20,7 @@ Rispondi alla domanda: “Cos’è questo?”
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
-Fornisci una descrizione delle potenziali implicazioni e dei rischi possono sorgere se non si farà nulla al riguardo.
+Fornisci una descrizione delle potenziali implicazioni e dei rischi che possono sorgere se non viene fatto nulla al riguardo.
 Rispondi alla domanda: “Perché dovrei preoccuparmi?”
 
 * implicazione o rischio n. 1
