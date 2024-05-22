@@ -5,7 +5,7 @@ exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 56%
+ht-degree: 64%
 
 ---
 
@@ -44,7 +44,7 @@ Viene utilizzato un sottotipo per identificare il tipo di problema del flusso di
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_tools"
 >title="Strumenti e risorse"
->abstract="Rivedi e pianifica l’esecuzione dello strumento Migrazione dei flussi di lavoro delle risorse una volta identificata una personalizzazione di modello di flusso di lavoro delle risorse o modulo di avvio. Per ricevere assistenza o chiarimenti, contatta il servizio di assistenza Adobe."
+>abstract="Rivedi e pianifica l’esecuzione dello strumento Migrazione dei flussi di lavoro delle risorse una volta identificata una personalizzazione di modello di flusso di lavoro per risorse o modulo di avvio. Per ricevere assistenza o chiarimenti, contatta il servizio di assistenza Adobe."
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/asset-workflow-migration-tool" text="Strumento Migrazione dei flussi di lavoro delle risorse"
 >additional-url="https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
 
