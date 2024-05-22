@@ -18,7 +18,7 @@ Libreria client personalizzata
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccl_overview"
 >title="Libreria client personalizzata"
->abstract="CCL identifica le librerie client installate in AEM. Tali informazioni sono fornite ai fini della valutazione delle best practice."
+>abstract="CCL identifica le librerie client installate in AEM. Queste informazioni sono fornite ai fini della valutazione delle best practice."
 
 `CCL` Identifica le librerie client installate in AEM. Tali informazioni sono fornite ai fini della valutazione delle best practice.
 
