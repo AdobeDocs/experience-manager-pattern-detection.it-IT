@@ -2,10 +2,10 @@
 title: ASO
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '473'
-ht-degree: 100%
+source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
+workflow-type: tm+mt
+source-wordcount: '475'
+ht-degree: 85%
 
 ---
 
@@ -49,7 +49,7 @@ I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 * Un numero elevato di URL personalizzati (>1000) può comportare un carico notevole per Dispatcher e i server Publish con query costose.
 * L’applicazione personalizzata può basarsi su prodotti o funzionalità non disponibili in AEM as a Cloud Service.
 * L’aggiornamento con funzioni non supportate potrebbe impedire l’aggiornamento o il corretto funzionamento di un’applicazione.
-* Un numero elevato di flussi di lavoro di authoring in stato In esecuzione o Non aggiornato potrebbe peggiorare le prestazioni.
+* Un numero elevato di flussi di lavoro di authoring in esecuzione o non aggiornati potrebbe compromettere le prestazioni.
 * Le query lente possono compromettere le prestazioni del sistema.
 
 ## Soluzioni possibili {#solutions}
@@ -61,7 +61,7 @@ I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 >additional-url="https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
 
 * Gli aggiornamenti di AEM con prodotti o funzionalità non supportati non sono consigliati e potrebbero non essere supportati.
-* Le risorse non elaborate devono essere elaborate e la proprietà `dam:assetState` sul nodo `jcr:content` della risorsa deve essere impostata su “elaborato”. In alternativa, dovresti rimuovere queste risorse dal set di migrazione prima di eseguire la migrazione a AEMaaCS.
+* Le risorse non elaborate devono essere elaborate e `dam:assetState` proprietà sul `jcr:content` Il nodo della risorsa deve essere impostato su &quot;processed&quot;. In alternativa, dovresti rimuovere queste risorse dal set di migrazione prima di eseguire la migrazione a AEMaaCS.
 * Gli URL personalizzati possono essere sostituiti con Apache Rewrite.
 * Consulta la [documentazione](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries) per la risoluzione dei problemi relativi a query lente.
 * Consulta le [note sulla versione](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) per scoprire le ultime modifiche implementate in AEM as a Cloud Service.
