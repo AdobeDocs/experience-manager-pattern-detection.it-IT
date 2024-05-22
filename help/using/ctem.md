@@ -3,9 +3,9 @@ title: CTEM
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ Custom Template (modello personalizzato)
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_overview"
 >title="Custom Template (modello personalizzato)"
->abstract="CTEM identifica i componenti personalizzati installati su AEM. Queste informazioni sono fornite ai fini della valutazione delle best practice"
+>abstract="CTEM identifica i componenti personalizzati installati in AEM. Queste informazioni sono fornite ai fini della valutazione delle best practice"
 
-`CTEM`  Identifica i modelli personalizzati installati in AEM. Tali informazioni sono fornite ai fini della valutazione delle best practice.
+`CTEM` identifica i modelli personalizzati installati in AEM. Queste informazioni sono fornite ai fini della valutazione delle best practice.
 
-I modelli hanno un valore di tipo primario di `cq:Template`, che ne facilita l&#39;identificazione. Con questo codice viene utilizzato un sottotipo per identificare la categoria del modello:
+I modelli hanno un valore di tipo primario di `cq:Template`, che ne facilita l’identificazione. Con questo codice viene utilizzato un sottotipo per identificare la categoria del modello:
 
 * `custom.editable.template`: il percorso del modello non inizia con `/apps`.
 * `custom.static.template`: il percorso del modello inizia con `/apps`.
