@@ -3,9 +3,9 @@ title: INST
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '451'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ Artefatto installato
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_overview"
 >title="Artefatto installato"
->abstract="INST identifica pacchetti e bundle personalizzati e di terze parti installati in AEM dal cliente. Tali pacchetti e bundle sono segnalati per aiutare a caratterizzare lo stato del sistema e l’ambito generale di uno sforzo di aggiornamento. Qualsiasi pacchetto di terze parti deve rispettare le linee guida di AEM as a Cloud Service per lo sviluppo e la creazione di pacchetti."
+>abstract="INST identifica i pacchetti e i bundle personalizzati e di terze parti che sono stati installati in AEM dal cliente. Questi vengono segnalati per aiutare a caratterizzare lo stato del sistema e l’ambito generale di un’attività di aggiornamento. Qualsiasi pacchetto di terze parti deve rispettare le linee guida per lo sviluppo e la creazione di pacchetti di AEM as a Cloud Service."
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Linee guida per lo sviluppo in AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="Linee guida per la creazione di pacchetti in AEM as a Cloud Service"
 
-`INST`  Identifica pacchetti e bundle personalizzati e di terze parti installati in AEM dal cliente. Tali pacchetti e bundle sono segnalati per aiutare a caratterizzare lo stato del sistema e l’ambito generale di uno sforzo di aggiornamento.
+`INST` identifica pacchetti e bundle personalizzati e di terze parti installati in AEM dal cliente. Questi vengono segnalati per aiutare a caratterizzare lo stato del sistema e l’ambito generale di un’attività di aggiornamento.
 
 Quando sono state installate più versioni di un pacchetto, viene segnalata solo la versione più recente.
 
@@ -51,7 +51,7 @@ I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_tools"
 >title="Strumenti e risorse"
->abstract="Rivedi il progetto WKND precedente per comprendere come le violazioni INST possono essere rese compatibili con AEM Cloud Service. Inoltre, rivedi l’esempio di violazione INST su GitHub per capire come questo problema può essere corretto e distribuito in AEM as a Cloud Service."
+>abstract="Rivedi il progetto WKND precedente per comprendere come le violazioni INST possono essere rese compatibili con AEM Cloud Service. Inoltre, rivedi l’esempio di violazione INST su GitHub per capire come può essere corretto e distribuito in AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="Progetto WKND precedente"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="Esempio di violazione INST: Github"
 

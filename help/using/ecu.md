@@ -3,9 +3,9 @@ title: ECU
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -17,12 +17,12 @@ OBSOLETO: Utilizzo di contenuti estranei (sostituito da CAV, Violazione dell’a
 
 `ECU` identifica il pattern di utilizzo di aree di contenuto diverse in modo tale da violare le regole di classificazione del contenuto.
 
-L’elaborazione delle richieste sling definisce come il contenuto di una risorsa, in particolare la relativa proprietà `sling:resourceType`, viene utilizzato per determinare lo script che verrà impiegato per il rendering del contenuto. (Consulta [Individuazione dello script](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script) per ulteriori informazioni). Sling fornisce anche tecniche per accedere e unire le risorse tramite sovrapposizioni e sostituzioni. Queste tecniche sono descritte come parte della [Sling Resource Merger](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) e in [Sovrapposizioni](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/platform/overlays).
+L’elaborazione delle richieste sling definisce come il contenuto di una risorsa, in particolare la relativa proprietà `sling:resourceType`, viene utilizzato per determinare lo script che verrà impiegato per il rendering del contenuto. (Consulta l’[individuazione dello script](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script) per ulteriori informazioni). Sling fornisce anche tecniche per accedere alle risorse e unirle tramite sovrapposizioni e sostituzioni. Queste tecniche sono descritte come parte di [Sling Resource Merger](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) e in [Sovrapposizioni](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/platform/overlays).
 
-Per rendere più sicuro e facile per i clienti capire quali aree di `/libs` sono sicuri da usare e sovrapporre, il contenuto in `/libs` è stato classificato con proprietà &quot;mixin&quot;:
+Per rendere più sicuro e facile far comprendere alla clientela quali aree di `/libs` si possono utilizzare in sicurezza e sovrapporre, il contenuto in `/libs` è stato classificato con proprietà “mixin”:
 
-* Pubblica
-* Riassunto
+* Pubblico
+* Astratto
 * Finale
 * Interno
 

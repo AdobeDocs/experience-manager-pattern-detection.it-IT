@@ -3,9 +3,9 @@ title: URC
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Configurazione della modalità di esecuzione non supportata
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_guidance"
 >title="Guida all’implementazione"
->abstract="Si consiglia di verificare se tutte le modalità di esecuzione utilizzate nell’applicazione sono supportate. Assicurati inoltre di seguire le linee guida per la risoluzione della modalità di esecuzione"
+>abstract="Si consiglia di verificare se tutte le modalità di esecuzione utilizzate nell’applicazione sono supportate. Inoltre, è opportuno assicurarsi che vengano seguite le linee guida per la risoluzione della modalità di esecuzione"
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi#deploying" text="Linee guida per la risoluzione della modalità di esecuzione"
 
 * L’insieme di nomi che possono essere utilizzati per le svariate modalità di esecuzione in AEM as a Cloud Service è limitato.
@@ -40,7 +40,7 @@ Configurazione della modalità di esecuzione non supportata
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_tools"
 >title="Strumenti e risorse"
->abstract="Rivedi il progetto precedente WKND per comprendere come le violazioni dell’URC possono essere rese compatibili con AEM Cloud Service. Inoltre, rivedi l’esempio di violazione dell’URC su GitHub per capire come è possibile aggiornare le configurazioni OSGi basate su modalità di esecuzione personalizzata in modo da rispettare gli as a Cloud Service AEM."
+>abstract="Rivedi il progetto precedente WKND per comprendere come le violazioni dell’URC possono essere rese compatibili con AEM Cloud Service. Inoltre, rivedi l’esempio di violazione dell’URC su Github per capire come è possibile aggiornare le configurazioni OSGi basate su modalità di esecuzione personalizzate in modo da rispettare AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc" text="Progetto WKND precedente"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc" text="Esempio di violazione URC: GitHub"
 

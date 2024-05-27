@@ -3,9 +3,9 @@ title: DG
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ I sottotipi vengono utilizzati per identificare diversi tipi di violazioni rilev
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
 * `java.io.inputstream`
-   * Lo streaming di dati binari con `java.io.InputStream` può sfruttare le risorse di memoria al punto di influire sulle prestazioni. Questo problema è dovuto alla memoria limitata disponibile nei contenitori utilizzati in AEM as a Cloud Service.
+   * Lo streaming di dati binari con `java.io.InputStream` può sfruttare le risorse di memoria al punto di influire sulle prestazioni. Questo diventa un problema a causa della memoria limitata disponibile nei contenitori utilizzati in AEM as a Cloud Service.
 
 * `maintenance.task.configuration`
    * Alcune attività di manutenzione che in precedenza richiedevano una configurazione esplicita vengono ora configurate e gestite automaticamente in AEM as a Cloud Service.
@@ -55,7 +55,7 @@ I sottotipi vengono utilizzati per identificare diversi tipi di violazioni rilev
       * createAsset
 
 * `javax.jcr.observation.EventListener`
-   * Le applicazioni dipendenti dal listener di eventi potrebbero non funzionare come previsto perché l&#39;esecuzione non può essere garantita.
+   * Le applicazioni dipendenti dal listener di eventi potrebbero non funzionare come previsto perché l’esecuzione non può essere garantita.
 
 * `custom.guava.cache`
    * L’utilizzo della cache Guava può causare problemi di prestazioni in AEM.

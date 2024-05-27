@@ -3,9 +3,9 @@ title: CAV
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -18,17 +18,17 @@ Violazione dell’area contenuto
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_overview"
 >title="Violazione dell’area contenuto"
->abstract="Il codice CAV identifica il pattern in cui aree di contenuto diverse vengono utilizzate in modo da violare le regole di classificazione dei contenuti. Questa violazione fornisce una panoramica sulle sovrapposizioni, sui contenuti limitati che potrebbero dover essere modificati dopo essere stati spostati nell’as a Cloud Service AEM."
+>abstract="Il codice CAV identifica il pattern in cui aree di contenuto diverse vengono utilizzate in modo da violare le regole di classificazione dei contenuti. Questa violazione fornisce una panoramica sulle sovrapposizioni e sui contenuti soggetti a limitazioni che potrebbero richiedere modifiche nel passaggio ad AEM as a Cloud Service."
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling Resource Merger"
 
 `CAV` identifica il pattern in cui diverse aree di contenuto vengono utilizzate in modo da violare le regole di classificazione del contenuto.
 
-L’elaborazione delle richieste sling definisce come il contenuto di una risorsa, in particolare la relativa proprietà `sling:resourceType`, viene utilizzato per determinare lo script che verrà impiegato per il rendering del contenuto. Consulta [Individuazione dello script](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script) per ulteriori informazioni. Sling fornisce anche tecniche per accedere e unire le risorse tramite sovrapposizioni e sostituzioni. Queste tecniche sono descritte come parte della [Sling Resource Merger](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) e in [Sovrapposizioni](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/platform/overlays).
+L’elaborazione delle richieste sling definisce come il contenuto di una risorsa, in particolare la relativa proprietà `sling:resourceType`, viene utilizzato per determinare lo script che verrà impiegato per il rendering del contenuto. Per ulteriori informazioni. consulta l’[individuazione dello script](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script). Sling fornisce anche tecniche per accedere alle risorse e unirle tramite sovrapposizioni e sostituzioni. Queste tecniche sono descritte come parte di [Sling Resource Merger](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) e in [Sovrapposizioni](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/platform/overlays).
 
-Per rendere più sicuro e facile per i clienti capire quali aree di `/libs` sono sicuri da usare e sovrapporre, il contenuto in `/libs` è classificato con proprietà &quot;mixin&quot;:
+Per rendere più sicuro e facile far comprendere alla clientela quali aree di `/libs` si possono utilizzare in sicurezza e sovrapporre, il contenuto in `/libs` è stato classificato con proprietà “mixin”:
 
-* Pubblica
-* Riassunto
+* Pubblico
+* Astratto
 * Finale
 * Interno
 
