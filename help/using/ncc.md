@@ -3,9 +3,9 @@ title: NCC
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '191'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Modifiche non compatibili
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Modifiche di rilievo in AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Note sulla versione di AEM as a Cloud Service"
 
-`NCC`  Identifica la situazione in cui alcuni nodi o bundle JCR vengono modificati in modo non compatibile. Il cliente potrebbe non essere a conoscenza di questa modifica prima di un aggiornamento.
+`NCC` identifica la situazione in cui alcuni nodi o bundle JCR vengono modificati in modo non compatibile. Il cliente potrebbe non essere a conoscenza di questa modifica prima di un aggiornamento.
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
@@ -39,5 +39,5 @@ Modifiche non compatibili
 >additional-url="https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
 
 * Sovrapponi o fai riferimento solo ai componenti Sling compatibili.
-* È consigliabile adattare le risorse provenienti da `/libs` o bundle dopo un aggiornamento AEM.
-* Per eventuali dubbi o chiarimenti, contatta il [team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
+* È consigliabile adattare le risorse provenienti da `/libs` o i bundle dopo un aggiornamento di AEM.
+* Per risolvere eventuali dubbi o avere dei chiarimenti, contatta il [team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).

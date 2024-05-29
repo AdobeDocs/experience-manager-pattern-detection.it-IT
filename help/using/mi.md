@@ -3,9 +3,9 @@ title: MI
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ I sottotipi vengono utilizzati per identificare i diversi tipi di informazioni, 
 * `sling.job.max.parallel`
    * Il valore -1 viene sostituito con il numero di processori disponibili. Di conseguenza, potrebbe causare problemi di prestazioni in un’istanza AEM.
 * `missing.maintenance.configuration`
-   * Le configurazioni mancanti delle attività di manutenzione possono causare la perdita di prestazioni o il danneggiamento dell’istanza.
+   * Le configurazioni di attività di manutenzione mancanti possono causare una perdita di prestazioni o danneggiare l’istanza.
 
 ## Soluzioni possibili {#solutions}
 

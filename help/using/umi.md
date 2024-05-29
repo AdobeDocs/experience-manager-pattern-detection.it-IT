@@ -3,9 +3,9 @@ title: UMI
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '352'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Le seguenti configurazioni vengono verificate per rilevare eventuali modifiche:
 * `org.apache.sling.engine.impl.auth.SlingAuthenticator`
 * `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory`
 * `com.day.cq.commons.impl.ExternalizerImpl`
-* `org.apache.sling.commons.log.LogManager.factory.config` : identifica se il `org.apache.sling.commons.log.file` dei logger personalizzati rimanda a qualcosa di diverso da `logs/error.log` file.
+* `org.apache.sling.commons.log.LogManager.factory.config`: identifica se la proprietà `org.apache.sling.commons.log.file` dei logger personalizzati rimanda a qualcosa di diverso dal file `logs/error.log`.
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
@@ -39,7 +39,7 @@ Le seguenti configurazioni vengono verificate per rilevare eventuali modifiche:
    * L’aggiornamento potrebbe bloccarsi (ad esempio `org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName` mancante ma presente in `org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration.requiredServicePids`).
    * Dopo l’aggiornamento possono verificarsi problemi di autorizzazione (`org.apache.sling.engine.impl.auth.SlingAuthenticator`).
    * Alcune funzionalità potrebbero non funzionare come previsto. Ad esempio, la modifica di `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory` può causare la mancata compilazione di alcuni file JSP, che alla fine determina una perdita di funzionalità.
-   * I valori della configurazione di Externalizer `com.day.cq.commons.impl.ExternalizerImpl` sono impostate con le variabili di ambiente di cloud manager in AEM as a Cloud Service.
+   * I valori `com.day.cq.commons.impl.ExternalizerImpl` della configurazione di Externalizer sono impostati con le variabili di ambiente di Cloud Manager in AEM as a Cloud Service.
    * AEM as a Cloud Service non supporta i file di registro personalizzati. I registri scritti con file log e nomi personalizzati non saranno accessibili da AEM as a Cloud Service.
 
 ## Soluzioni possibili {#solutions}
