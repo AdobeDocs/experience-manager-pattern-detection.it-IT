@@ -3,7 +3,7 @@ title: INS
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%
 
