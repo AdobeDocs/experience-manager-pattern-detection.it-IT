@@ -2,10 +2,10 @@
 title: INST
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
+source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 100%
+source-wordcount: '498'
+ht-degree: 90%
 
 ---
 
@@ -46,6 +46,10 @@ I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 * Le applicazioni dipendenti da pacchetti di terze parti potrebbero non funzionare come previsto fino a quando non vengono distribuite correttamente per AEM as a Cloud Service.
 * I pacchetti di fornitori terze parti, se non ottimizzati per AEM as a Cloud Service, possono causare un comportamento indesiderato.
 
+Inoltre, considera di prestare attenzione a questi particolari sottotipi:
+
+* `guava.bundle` - Guava non è supportato come standard in AEM 6.5 LTS e il bundle non sarà disponibile dopo l&#39;aggiornamento.
+
 ## Soluzioni possibili {#solutions}
 
 >[!CONTEXTUALHELP]
@@ -60,3 +64,4 @@ I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 * I pacchetti di terze parti devono rispettare le linee guida di [sviluppo](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines) e [creazione pacchetti](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package) di AEM as a Cloud Service.
 * Rivedi il progetto [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst) e scopri come [le violazioni INST](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst) possono essere corrette e rese compatibili con AEM as a Cloud Service.
 * Contatta il [team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per eventuali dubbi.
+* Per il sottotipo `guava.bundle`, installare Guava o rimuovere l&#39;utilizzo se Guava è utilizzato nel codice personalizzato.
