@@ -4,8 +4,8 @@ description: Pagina della guida del codice di Pattern Detector.
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 100%
+source-wordcount: '1231'
+ht-degree: 96%
 
 ---
 
@@ -34,13 +34,13 @@ Consulta le sezioni [Possibili implicazioni e rischi](#implications-and-risks) e
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
-Risolvi i seguenti problemi, prima di eseguire la migrazione a [!DNL Adobe Experience Manager Forms as a Cloud Service]. Quando non vengono affrontati le implicazioni e i rischi elencati di seguito, alcune funzioni non vengono eseguite come previsto nell’ambiente di Cloud Service.
+Risolvi i seguenti problemi, prima di eseguire la migrazione a [!DNL Adobe Experience Manager Forms as a Cloud Service]. Quando non vengono affrontati le implicazioni e i rischi elencati di seguito, alcune funzioni non vengono eseguite come previsto nell’ambiente Cloud Service.
 
 * La funzionalità editor di codice della funzione editor di regole non è disponibile. (CODE_EDITOR)
 
 * Per impostazione predefinita, il supporto e-mail (porta SMTP) è disattivato. (EMAIL_SERVICE_CONFIGURATION)
 
-* L’azione di invio **[!UICONTROL E-mail PDF]** non è disponibile. (EMAIL_PDF_SUBMIT_ACTION)
+* L&#39;azione di invio **[!UICONTROL Invia PDF]** tramite posta elettronica non è disponibile.(EMAIL_PDF_SUBMIT_ACTION)
 
 * I moduli adattivi basati su XFA non sono ancora supportati. (XFA_BASED_FORM, XDP_BASED_FORM)
 
@@ -82,7 +82,7 @@ Risolvi i seguenti problemi, prima di eseguire la migrazione a [!DNL Adobe Exper
 
 * Rimuovi il passaggio di verifica dai moduli adattivi esistenti prima di spostarli in un ambiente [!DNL Cloud Service]. (VERIFY_STEP)
 
-* Modifica i moduli adattivi esistenti per utilizzare le azioni di invio [Invia a endpoint REST](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#submit-to-rest-endpoint), [Invia e-mail](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#send-email), [Invia utilizzando modello dati del modulo](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#submit-using-form-data-model) e [Richiama un flusso di lavoro AEM](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow).
+* Modifica i moduli adattivi esistenti per utilizzare le azioni di invio [Invia a endpoint REST](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#submit-to-rest-endpoint), [Invia e-mail](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#send-email), [Invia utilizzando modello dati modulo](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#submit-using-form-data-model) e [Richiama un flusso di lavoro AEM](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow).
 
 * Puoi sviluppare un flusso di lavoro AEM e modificare i moduli adattivi esistenti per utilizzare l’azione di invio [Flusso di lavoro AEM](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow) per inviare dati a un flusso di lavoro AEM invece di utilizzare l’azione **[!UICONTROL Invia a Forms Workflow]**. È possibile sviluppare un’azione di invio personalizzata per inviare dati, allegati o documenti Record (DoR) a un processo di LiveCycle invece di utilizzare [!UICONTROL Invia a Forms Workflow]. (LC_WORKFLOW_SUBMISSION)
 
@@ -96,6 +96,6 @@ Risolvi i seguenti problemi, prima di eseguire la migrazione a [!DNL Adobe Exper
 
 * Forms adattivo offre un design responsive. Questi moduli modificano l’aspetto, la progettazione e l’interattività in base al dispositivo sottostante. Puoi continuare a utilizzare moduli adattivi sui dispositivi mobili. Per informazioni sulla disponibilità dell’app [!DNL AEM Forms] segui le note sulla versione mensili. (AEM_FORMS_APP)
 
-* Il supporto per Forms adattivo basato su XFA non è immediatamente disponibile. Se desideri utilizzare Forms adattivo basato su XFA, contatta il Supporto Adobe con i dettagli del caso d’uso e i requisiti specifici.(XFA_BASED_FORM, XDP_BASED_FORM)
+* Il supporto per Forms adattivo basato su XFA non è immediatamente disponibile. Se intendi utilizzare un Forms adattivo basato su XFA, contatta il supporto Adobe con i dettagli del caso d’uso e i requisiti specifici.(XFA_BASED_FORM, XDP_BASED_FORM)
 
 Per eventuali dubbi o chiarimenti, contatta l’[assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).

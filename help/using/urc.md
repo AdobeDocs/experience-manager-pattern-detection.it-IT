@@ -4,7 +4,7 @@ description: Pagina della guida del codice di Pattern Detector.
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '387'
 ht-degree: 100%
 
 ---
@@ -47,4 +47,4 @@ Configurazione della modalità di esecuzione non supportata
 * Controlla l’utilizzo di questa configurazione per determinare se è necessario.
 * Rinomina la configurazione utilizzando uno dei [nomi delle modalità di esecuzione](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#custom-runmodes) supportati e segui le [linee guida per la risoluzione in modalità di esecuzione](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi#runmode-resolution).
 * Rivedi il progetto [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc) e scopri come le [Violazioni URC](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc) possono essere corrette e rese compatibili con AEM as a Cloud Service.
-* Contatta il [team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per eventuali dubbi.
+* Contatta il [Team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per eventuali dubbi.

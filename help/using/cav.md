@@ -4,7 +4,7 @@ description: Pagina della guida del codice di Pattern Detector.
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '407'
 ht-degree: 100%
 
 ---
@@ -51,4 +51,4 @@ Ogni classificazione implica regole su come il contenuto può essere utente, ere
 * Riduci al minimo l’utilizzo della sovrapposizione dei contenuti nei casi in cui è necessario.
 * In particolare, evita di sovrapporre i contenuti soggetti a restrizioni (classificazione finale e classificazione interna).
 * È consigliabile adattare i cambiamenti provenienti da `/libs` dopo gli aggiornamenti AEM, Service Pack o le installazioni Cumulative Fix Pack.
-* Contatta il [team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per eventuali dubbi.
+* Contatta il [Team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per eventuali dubbi.

@@ -4,8 +4,8 @@ description: Pagina della guida del codice di Pattern Detector.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
 source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 90%
+source-wordcount: '659'
+ht-degree: 92%
 
 ---
 
@@ -38,11 +38,11 @@ I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_guidance"
 >title="Guida all’implementazione"
->abstract="I clienti non possono più installare pacchetti di terze parti utilizzando Gestione pacchetti CRX. È quindi necessario esaminare gli artefatti installati e fare in modo che siano strutturati e ottimizzati per funzionare con AEM as a Cloud Service. Verifica la compatibilità di AEM as a cloud service con qualsiasi pacchetto di terze parti, confrontandoti con il suo creatore o con Adobe."
+>abstract="I clienti non possono più installare pacchetti di terze parti utilizzando il gestore di pacchetti CRX. È quindi necessario esaminare gli artefatti installati e fare in modo che siano strutturati e ottimizzati per funzionare con AEM as a Cloud Service. Verifica la compatibilità di AEM as a cloud service con qualsiasi pacchetto di terze parti, confrontandoti con il suo creatore o con Adobe."
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embeddeds" text="Incorporazione di pacchetti secondari nel pacchetto contenitore"
 
 
-* L’installazione di pacchetti di terze parti tramite Gestione pacchetti CRX non è possibile in AEM as a Cloud Service.
+* L’installazione di pacchetti di terze parti tramite il gestore di pacchetti CRX non è possibile in AEM as a Cloud Service.
 * Le applicazioni dipendenti da pacchetti di terze parti potrebbero non funzionare come previsto fino a quando non vengono distribuite correttamente per AEM as a Cloud Service.
 * I pacchetti di fornitori terze parti, se non ottimizzati per AEM as a Cloud Service, possono causare un comportamento indesiderato.
 

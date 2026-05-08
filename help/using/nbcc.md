@@ -4,7 +4,7 @@ description: Pagina della guida del codice di Pattern Detector.
 exl-id: fa6bdd3c-4deb-41ec-878d-4ea5dc1ddf60
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '262'
 ht-degree: 100%
 
 ---
@@ -40,4 +40,4 @@ OBSOLETO: Non-Backwards Compatible Changes (modifiche non compatibili con versio
 
 * Sovrapponi o fai riferimento solo a componenti Sling compatibili.
 * È consigliabile adattare le risorse provenienti da `/libs` o i bundle dopo un aggiornamento di AEM.
-* Per risolvere eventuali dubbi o avere dei chiarimenti, contatta il [team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
+* Contatta il [Team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per eventuali dubbi.

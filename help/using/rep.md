@@ -1,10 +1,10 @@
 ---
 title: REP
-description: Pagina della guida del codice di Pattern Detector.
+description: Pagina della guida del codice di Pattern Detector
 exl-id: e788deba-a301-404f-8e90-51f721409e69
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '531'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ Agente di replica
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_rep_overview"
 >title="Agente di replica"
->abstract="REP identifica gli agenti di replica abilitati. Questi vengono segnalati a causa di potenziali problemi che dovrebbero essere risolti durante l’aggiornamento ad AEM as a Cloud Service. AEM as a Cloud Service utilizza la distribuzione dei contenuti Sling per distribuire i contenuti dagli ambienti di authoring a quelli di pubblicazione. Questa operazione viene eseguita al di fuori del runtime di AEM utilizzando il servizio della pipeline di Adobe I/O Runtime su Adobe Developer. Il flusso di lavoro viene configurato automaticamente nell’ambiente AEM as a Cloud Service fornito."
+>abstract="REP identifica gli agenti di replica abilitati. Questi vengono segnalati a causa di potenziali problemi che dovrebbero essere risolti durante l’aggiornamento ad AEM as a Cloud Service. AEM as a Cloud Service utilizza la distribuzione dei contenuti Sling per distribuire i contenuti dagli ambienti di authoring a quelli di pubblicazione. Questa operazione viene eseguita al di fuori del runtime di AEM utilizzando il servizio della pipeline di Adobe I/O Runtime su Adobe Developer. Il flusso di lavoro viene configurato automaticamente nell’ambiente con provisioning AEM as a Cloud Service."
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents" text="Modifiche di rilievo in AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents" text="Linee guida per lo sviluppo"
 
@@ -31,7 +31,7 @@ I sottotipi vengono utilizzati per identificare diversi tipi di informazioni:
 * `standard.replication.agent.modification`: identifica gli agenti di replica standard abilitati che sono stati modificati.
 * `custom.replication.agent.detection`: identifica gli agenti di replica personalizzati abilitati.
 
-AEM as a Cloud Service utilizza la [Distribuzione dei contenuti Sling](https://sling.apache.org/documentation/bundles/content-distribution.html) per distribuire i contenuti dagli ambienti di authoring a quelli di pubblicazione. Questa operazione viene eseguita al di fuori del runtime di AEM utilizzando il servizio della pipeline di Adobe I/O Runtime su Adobe Developer. Il flusso di lavoro viene configurato automaticamente nell’ambiente AEM as a Cloud Service fornito.
+AEM as a Cloud Service utilizza la [Distribuzione dei contenuti Sling](https://sling.apache.org/documentation/bundles/content-distribution.html) per distribuire i contenuti dagli ambienti di authoring a quelli di pubblicazione. Questa operazione viene eseguita al di fuori del runtime di AEM utilizzando il servizio della pipeline di Adobe I/O Runtime su Adobe Developer. Il flusso di lavoro viene configurato automaticamente nell’ambiente con provisioning AEM as a Cloud Service.
 
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
@@ -55,4 +55,4 @@ AEM as a Cloud Service utilizza la [Distribuzione dei contenuti Sling](https://s
 * Consulta le [Linee guida per lo sviluppo](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents) di AEM as a Cloud Service e le note sulla versione degli [agenti di replica](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents).
 * Rivedi, riesegui il factoring e ottimizza le funzionalità direttamente dipendenti dagli agenti di replica per eseguire attività aziendali.
 * Scopri come la [replica](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/deploying/overview#replication) è interessata dalla distribuzione in AEM as a Cloud Service.
-* Per risolvere eventuali dubbi o avere dei chiarimenti, contatta il [team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
+* Contatta il [Team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per eventuali dubbi.

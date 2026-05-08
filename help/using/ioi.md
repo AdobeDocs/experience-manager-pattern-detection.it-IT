@@ -4,7 +4,7 @@ description: Pagina della guida del codice di Pattern Detector.
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '229'
 ht-degree: 100%
 
 ---
@@ -38,4 +38,4 @@ Alcune di queste aree sono utilizzate da `com.adobe.granite.repository`, che imp
 
 * Utilizza l’API per risorse Sling (o l’API JCR) invece di un accesso di basso livello.
 * Evita le dipendenze da pacchetti interni che non fanno parte di alcuna API o SPI pubblica.
-* Per eventuali chiarimenti o dubbi, rivolgiti al [team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
+* Contatta il [Team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per eventuali dubbi.
