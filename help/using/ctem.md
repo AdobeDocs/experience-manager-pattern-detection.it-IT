@@ -4,7 +4,7 @@ description: Pagina della guida del codice di Pattern Detector.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '301'
 ht-degree: 100%
 
 ---
@@ -49,4 +49,4 @@ I modelli hanno un valore di tipo primario di `cq:Template`, che ne facilita lâ€
 
 * Utilizza gli [strumenti di modernizzazione AEM](https://opensource.adobe.com/aem-modernize-tools/) per migrare i modelli statici in modelli modificabili.
 * Per ulteriori informazioni sui modelli modificabili, consulta [Modelli](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/platform/templates/templates).
-* Contatta il [team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per risolvere dubbi.
+* Contatta il [Team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per eventuali dubbi.
