@@ -1,13 +1,12 @@
 ---
 title: WRF
 description: Pagina della guida del codice di Pattern Detector.
-source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
+exl-id: 36578498-d5b2-46d1-a274-a1646ceaa764
+source-git-commit: 29d702c9662fd185ef806123fc4f4a03a70d64aa
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '91'
 ht-degree: 8%
-
 ---
-
 # WRF {#wrf}
 
 ## Informazioni di base {#background}
