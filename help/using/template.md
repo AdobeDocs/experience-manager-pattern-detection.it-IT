@@ -1,13 +1,14 @@
 ---
 title: MODELLO
 description: Modello per la pagina della guida del codice di Pattern Detector.
-source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '128'
 ht-degree: 100%
-
 ---
-
 
 # [!DNL TEMPLATE] {#template}
 
@@ -33,4 +34,4 @@ Rispondi alla domanda: “Cosa posso fare?”
 
 * possibile soluzione n. 1
 * possibile soluzione n. 2
-* Per eventuali chiarimenti o dubbi, rivolgiti al [team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
+* Contatta il [Team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per eventuali dubbi.
