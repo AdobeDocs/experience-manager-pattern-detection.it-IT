@@ -2,13 +2,17 @@
 title: PCX
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 100%
-
 ---
-
 # PCX {#pcx}
 
 Complessità della pagina
@@ -42,9 +46,9 @@ I sottotipi vengono utilizzati per identificare i diversi tipi di informazioni:
 >additional-url="https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html" text="Supporto Experience Cloud"
 
 * Riduci il numero totale di nodi all’interno di una pagina eseguendo la seguente azione:
-   * Verifica che non siano presenti contenitori non necessari.
-   * Verifica se è possibile ottenere lo stesso layout con un numero inferiore di contenitori.
-   * Semplifica il contenuto della pagina.
-   * Riduci la profondità della struttura del nodo.
-   * Per semplicità, esegui il refactoring dei Frammenti di esperienza inclusi.
+  * Verifica che non siano presenti contenitori non necessari.
+  * Verifica se è possibile ottenere lo stesso layout con un numero inferiore di contenitori.
+  * Semplifica il contenuto della pagina.
+  * Riduci la profondità della struttura del nodo.
+  * Per semplicità, esegui il refactoring dei Frammenti di esperienza inclusi.
 * Contatta il [Team di supporto AEM](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) per ottenere chiarimenti o per eventuali dubbi.

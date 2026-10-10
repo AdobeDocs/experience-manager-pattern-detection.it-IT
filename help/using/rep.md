@@ -1,14 +1,18 @@
 ---
 title: REP
-description: Pagina della guida del codice di Pattern Detector
+description: Pagina della guida del codice di Pattern Detector.
 exl-id: e788deba-a301-404f-8e90-51f721409e69
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 100%
-
 ---
-
 # [!DNL REP] {#rep}
 
 Agente di replica
@@ -36,9 +40,9 @@ AEM as a Cloud Service utilizza la [Distribuzione dei contenuti Sling](https://s
 ## Possibili implicazioni e rischi {#implications-and-risks}
 
 * La configurazione della replica è cambiata con AEM as a Cloud Service. Tutti gli agenti di replica correnti devono essere rivisti. La revisione consente di vedere:
-   * quali sono quelli che la funzionalità standard può sostituire,
-   * quali configurazioni devono essere spostate nel codice
-   * e quali non sono supportate.
+  * quali sono quelli che la funzionalità standard può sostituire,
+  * quali configurazioni devono essere spostate nel codice
+  * e quali non sono supportate.
 * Qualsiasi utilizzo degli agenti di replica nel codice personalizzato o nei flussi di lavoro deve essere rivisto durante l’aggiornamento ad AEM as a Cloud Service.
 * La replica inversa non è inizialmente supportata in AEM as a Cloud Service.
 * Non è necessario configurare un agente di svuotamento del dispatcher separato. Invece, questo viene configurato automaticamente nell’ambiente AEM as a Cloud Service.

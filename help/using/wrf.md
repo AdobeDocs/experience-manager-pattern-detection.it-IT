@@ -2,14 +2,20 @@
 title: WRF
 description: Pagina della guida del codice di Pattern Detector.
 exl-id: 36578498-d5b2-46d1-a274-a1646ceaa764
-source-git-commit: 29d702c9662fd185ef806123fc4f4a03a70d64aa
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 8%
 ---
 # WRF {#wrf}
 
-## Informazioni di base {#background}
+## Esperienza pregressa {#background}
 
 WRF identifica un utilizzo di We-Retail incompatibile con AEM 6.5 LTS.
 
